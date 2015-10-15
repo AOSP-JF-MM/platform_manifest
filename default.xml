@@ -296,7 +296,7 @@
   <project path="hardware/broadcom/wlan" name="AOSP-JF-MM/platform_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="github" revision="aosp-6.0" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/libhardware" name="AOSP-JF-MM/platform_hardware_libhardware" groups="pdk" remote="github" revision="aosp-6.0-test" />
-  <project path="hardware/libhardware_legacy" name="AOSP-JF-MM/platform_hardware_libhardware_legacy" groups="pdk" remote="github" revision="aosp-6.0" />
+  <project path="hardware/libhardware_legacy" name="AOSP-JF-MM/platform_hardware_libhardware_legacy" groups="pdk" remote="github" revision="aosp-6.0-test" />
   <project path="hardware/qcom/audio-caf/msm8960" name="AOSP-JF-MM/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="msm8960-6.0-test" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
