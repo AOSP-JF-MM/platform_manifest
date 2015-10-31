@@ -91,7 +91,7 @@
   <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="github" revision="cm-13.0" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/f2fs-tools" name="platform/external/f2fs-tools" groups="pdk" />
+  <project path="external/f2fs-tools" name="CyanogenMod/android_external_f2fs-tools" groups="pdk" remote="github" revision="cm-13.0" />
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" />
   <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" remote="github" revision="cm-13.0" />
   <project path="external/fio" name="platform/external/fio" groups="pdk-fs" />
