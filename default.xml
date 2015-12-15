@@ -260,7 +260,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/av" name="AOSP-JF-MM/platform_frameworks_av" groups="pdk" remote="github" revision="aosp-6.0-test-caf" />
-  <project path="frameworks/base" name="AOSP-JF-MM/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-6.0-test-caf" />
+  <project path="frameworks/base" name="AOSP-JF-MM/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-6.0-test-caf-aospbt" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -271,8 +271,7 @@
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/native" name="AOSP-JF-MM/platform_frameworks_native" groups="pdk" remote="github" revision="aosp-6.0" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" />
-  <project path="frameworks/opt/bluetooth" name="AOSP-JF-MM/platform_frameworks_opt_bluetooth" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-6.0-test-caf" />
-  <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" remote="github" revision="cm-13.0" />
+  <project path="frameworks/opt/bluetooth" name="AOSP-JF-MM/platform_frameworks_opt_bluetooth" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-6.0-test-caf-aospbt" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/chips" name="platform/frameworks/opt/chips" groups="pdk-cw-fs,pdk-fs" />
@@ -301,7 +300,7 @@
   <project path="hardware/broadcom/libbt" name="AOSP-JF-MM/platform_hardware_broadcom_libbt" groups="pdk" remote="github" revision="aosp-6.0-test" />
   <project path="hardware/broadcom/wlan" name="AOSP-JF-MM/platform_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="github" revision="aosp-6.0" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="AOSP-JF-MM/platform_hardware_libhardware" groups="pdk" remote="github" revision="aosp-6.0-test-caf" />
+  <project path="hardware/libhardware" name="AOSP-JF-MM/platform_hardware_libhardware" groups="pdk" remote="github" revision="aosp-6.0-test-caf-aospbt" />
   <project path="hardware/libhardware_legacy" name="AOSP-JF-MM/platform_hardware_libhardware_legacy" groups="pdk" remote="github" revision="aosp-6.0-test-caf" />
   <project path="hardware/qcom/audio-caf/msm8960" name="AOSP-JF-MM/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="msm8960-6.0-test" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
@@ -325,7 +324,7 @@
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Bluetooth" name="AOSP-JF-MM/platform_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-6.0-test-caf" />
+  <project path="packages/apps/Bluetooth" name="AOSP-JF-MM/platform_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-6.0-test-caf-aospbt" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" groups="pdk-fs"/>
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs" />
@@ -363,7 +362,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
   <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-13.0" />
-  <project path="packages/apps/Settings" name="AOSP-JF-MM/platform_packages_apps_Settings" groups="pdk-fs" remote="github" revision="aosp-6.0-test-caf" />
+  <project path="packages/apps/Settings" name="AOSP-JF-MM/platform_packages_apps_Settings" groups="pdk-fs" remote="github" revision="aosp-6.0-test-caf-aospbt" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" groups="pdk-fs" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" />
@@ -425,7 +424,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
-  <project path="system/bt" name="AOSP-JF-MM/platform_system_bt" groups="pdk" remote="github" revision="aosp-6.0-test-caf" />
+  <project path="system/bt" name="AOSP-JF-MM/platform_system_bt" groups="pdk" remote="github" revision="aosp-6.0-test-caf-aospbt" />
   <project path="system/core" name="AOSP-JF-MM/platform_system_core" groups="pdk" remote="github" revision="aosp-6.0-test" />
   <project path="system/extras" name="AOSP-JF-MM/platform_system_extras" groups="pdk" remote="github" revision="aosp-6.0-test" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
