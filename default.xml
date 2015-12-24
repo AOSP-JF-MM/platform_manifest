@@ -362,6 +362,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
   <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-13.0" />
+  <project path="packages/apps/Screencast" name="CyanogenMod/android_packages_apps_Screencast" remote="github" revision="cm-13.0" />
   <project path="packages/apps/Settings" name="AOSP-JF-MM/platform_packages_apps_Settings" groups="pdk-fs" remote="github" revision="aosp-6.0-test-caf-aospbt" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" groups="pdk-fs" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
