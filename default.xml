@@ -451,15 +451,13 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   
   <!-- Device tree -->
-  <project path="device/samsung/jf-common" name="AOSP-JF-MM/platform_device_samsung_jf-common" remote="github" revision="aosp-6.0" />
-  <project path="device/samsung/jfltegsm" name="AOSP-JF-MM/platform_device_samsung_jfltegsm" remote="github" revision="aosp-6.0" />
-  <project path="device/samsung/jfltecdma" name="AOSP-JF-MM/platform_device_samsung_jfltecdma" remote="github" revision="aosp-6.0" />
+  <project path="device/samsung/jflte" name="AOSP-JF-MM/platform_device_samsung_jflte" remote="github" revision="aosp-6.0-test" />
   <project path="device/samsung/qcom-common" name="AOSP-JF-MM/android_device_samsung_qcom-common" remote="github" revision="aosp-6.0" />
   <project path="kernel/samsung/jf" name="AOSP-JF-MM/android_kernel_samsung_jf" remote="github" revision="aosp-6.0-test" />
 
   <!-- Vendor -->
   <project path="vendor/aosp" name="AOSP-JF-MM/platform_vendor_aosp" remote="github" revision="aosp-6.0-test-caf" />
-  <project path="vendor/samsung" name="AOSP-JF-MM/proprietary_vendor_samsung" remote="github" revision="jflte-6.0" />
+  <project path="vendor/samsung" name="AOSP-JF-MM/proprietary_vendor_samsung" remote="github" revision="jf-unified-6.0" />
   <project path="vendor/qcom/opensource/display-frameworks" name="AOSP-JF-MM/android_vendor_qcom_opensource_display-frameworks" remote="github" revision="aosp-6.0-test" />
 
 </manifest>
