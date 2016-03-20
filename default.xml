@@ -365,7 +365,7 @@
   <project path="packages/apps/SoundRecorder" name="AOSP-JF-MM/platform_packages_apps_SoundRecorder" groups="pdk-fs" remote="github" revision="aosp-6.0-test" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" groups="pdk-fs" />
-  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" groups="apps_stk,pdk-fs" />
+  <project path="packages/apps/Stk" name="AOSP-JF-MM/platform_packages_apps_Stk" groups="apps_stk,pdk-fs" remote="github" revision="aosp-6.0-test" />
   <project path="packages/apps/STweaks" name="AOSP-JF-MM/STweaks" remote="github" revision="aosp-6.0" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" groups="pdk-fs" />
   <project path="packages/apps/Terminal" name="platform/packages/apps/Terminal" groups="pdk-fs" />
