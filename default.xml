@@ -131,7 +131,7 @@
   <project path="external/jline" name="platform/external/jline" groups="notdefault,tradefed" />
   <project path="external/jmdns" name="platform/external/jmdns" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jmonkeyengine" name="platform/external/jmonkeyengine" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/jpeg" name="platform/external/jpeg" groups="pdk" />
+  <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" groups="pdk" remote="github" revision="cm-13.0" />
   <project path="external/jsilver" name="platform/external/jsilver" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jsmn" name="platform/external/jsmn" groups="pdk" />
   <project path="external/jsoncpp" name="platform/external/jsoncpp" groups="pdk-cw-fs,pdk-fs" />
@@ -158,7 +158,7 @@
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk,pdk-cw-fs,pdk-fs" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/libpng" name="platform/external/libpng" groups="pdk" />
+  <project path="external/libpng" name="CyanogenMod/platform_external_libpng" groups="pdk" remote="github" revision="cm-13.0" />
   <project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
   <project path="external/libssh2" name="platform/external/libssh2" groups="pdk-cw-fs,pdk-fs" />
