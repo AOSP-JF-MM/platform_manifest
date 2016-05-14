@@ -72,7 +72,6 @@
   <project path="system/extras" name="AOSP-JF-MM/platform_system_extras" groups="pdk" remote="github" revision="aosp-6.0-test" />
   <project path="system/media" name="AOSP-JF-MM/platform_system_media" groups="pdk" remote="github" revision="aosp-6.0-test" />
   <project path="system/vold" name="AOSP-JF-MM/platform_system_vold" groups="pdk" remote="github" revision="aosp-6.0-test-caf" />
-  <project path="vendor/aosp" name="AOSP-JF-MM/platform_vendor_aosp" remote="github" revision="aosp-6.0-test-caf" />
 <!-- AOSP-JF -->
 
 <!-- CyanogenMod -->
