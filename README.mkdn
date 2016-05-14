@@ -3,7 +3,7 @@ The Android Open Source Project - Marshmallow 6.0 [STABLE BRANCH]
 
 By Xiyan
 
-+add CyanogenMod13 caf and others
+add CyanogenMod13 caf and others
 
 Getting Started
 ---------------
