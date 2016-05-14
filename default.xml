@@ -9,16 +9,14 @@
 
   <default revision="refs/tags/android-6.0.1_r43"
            remote="aosp"
-           sync-j="8"
-           sync-c="true"
-           sync-f="true"
-           sync-q="true" />
- 
+           sync-j="4" />
+
 <!-- AOSP-JF -->
 
   <project path="build" name="AOSP-JF-MM/platform_build" groups="pdk" remote="github" revision="aosp-6.0-test" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="AOSP-JF-MM/platform_art" groups="pdk" remote="github" revision="aosp-6.0-test" />
   <project path="bionic" name="AOSP-JF-MM/platform_bionic" groups="pdk" remote="github" revision="aosp-6.0-test" />
   <project path="device/qcom/sepolicy" name="AOSP-JF-MM/platform_device_qcom_sepolicy" remote="github" revision="aosp-6.0-test" />
@@ -143,7 +141,6 @@
   <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" remote="github" revision="cm-13.0" />
 <!-- CyanogenMod -->
 
-  <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
@@ -507,4 +504,3 @@
   <project path="vendor/aosp" name="AOSP-JF-MM/platform_vendor_aosp" remote="github" revision="aosp-6.0-test-caf" />
   <project path="vendor/samsung" name="AOSP-JF-MM/proprietary_vendor_samsung" remote="github" revision="aosp-6.0-test-new-ril" />
 </manifest>
-
