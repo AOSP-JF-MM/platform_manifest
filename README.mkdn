@@ -1,6 +1,9 @@
 The Android Open Source Project - Marshmallow 6.0 [STABLE BRANCH]
 ===========
 
+By Xiyan
+
++add CyanogenMod13 caf and others
 
 Getting Started
 ---------------
@@ -9,7 +12,7 @@ To get started with Android, you'll need to get familiar with [Git and Repo](htt
 
 To initialize your local repository using the AOSP trees, use a command like this:
 
-    repo init -u git://github.com/AOSP-JF-MM/platform_manifest.git -b aosp-6.0
+    repo init -u git://github.com/Xiyanrom/platform_manifest.git -b aosp-6.0-xiyan
 
 Then to sync up:
 
