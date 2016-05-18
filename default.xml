@@ -11,12 +11,127 @@
            remote="aosp"
            sync-j="4" />
 
+<!-- AOSP-JF -->
+
   <project path="build" name="AOSP-JF-MM/platform_build" groups="pdk" remote="github" revision="aosp-6.0-test" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="AOSP-JF-MM/platform_art" groups="pdk" remote="github" revision="aosp-6.0-test" />
   <project path="bionic" name="AOSP-JF-MM/platform_bionic" groups="pdk" remote="github" revision="aosp-6.0-test" />
+  <project path="device/qcom/sepolicy" name="AOSP-JF-MM/platform_device_qcom_sepolicy" remote="github" revision="aosp-6.0-test" />
+  <project path="external/chromium-webview" name="AOSP-JF-MM/platform_external_chromium-webview" groups="pdk" remote="github" revision="aosp-6.0-test" />
+  <project path="external/doclava" name="AOSP-JF-MM/platform_external_doclava" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-6.0" />
+  <project path="external/guava" name="AOSP-JF-MM/platform_external_guava" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-6.0-test" />
+  <project path="external/sepolicy" name="AOSP-JF-MM/platform_external_sepolicy" groups="pdk" remote="github" revision="aosp-6.0-test" />
+  <project path="external/skia" name="AOSP-JF-MM/platform_external_skia" groups="pdk-cw-fs,qcom_msm8x26" remote="github" revision="aosp-6.0" />
+  <project path="external/sonivox" name="AOSP-JF-MM/platform_external_sonivox" groups="pdk" remote="github" revision="aosp-6.0-test" />
+  <project path="external/tinyalsa" name="AOSP-JF-MM/platform_external_tinyalsa" groups="pdk" remote="github" revision="aosp-6.0-test" />
+  <project path="external/vogar" name="AOSP-JF-MM/platform_external_vogar" groups="pdk" remote="github" revision="aosp-6.0" />
+  <project path="frameworks/av" name="AOSP-JF-MM/platform_frameworks_av" groups="pdk" remote="github" revision="aosp-6.0" />
+  <project path="frameworks/base" name="AOSP-JF-MM/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-6.0-test-caf" />
+  <project path="frameworks/native" name="AOSP-JF-MM/platform_frameworks_native" groups="pdk" remote="github" revision="aosp-6.0" />
+  <project path="frameworks/opt/bluetooth" name="AOSP-JF-MM/platform_frameworks_opt_bluetooth" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-6.0" />
+  <project path="frameworks/opt/net/wifi" name="AOSP-JF-MM/platform_frameworks_opt_net_wifi" groups="pdk" remote="github" revision="aosp-6.0-test" />
+  <project path="frameworks/opt/telephony" name="AOSP-JF-MM/platform_frameworks_opt_telephony" groups="pdk" remote="github" revision="aosp-6.0-test-caf" />
+  <project path="frameworks/support" name="AOSP-JF-MM/platform_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-6.0-test" />
+  <project path="hardware/samsung" name="AOSP-JF-MM/android_hardware_samsung" remote="github" revision="aosp-6.0-test" />
+  <project path="hardware/broadcom/libbt" name="AOSP-JF-MM/platform_hardware_broadcom_libbt" groups="pdk" remote="github" revision="aosp-6.0-test" />
+  <project path="hardware/broadcom/wlan" name="AOSP-JF-MM/platform_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="github" revision="aosp-6.0" />
+  <project path="hardware/libhardware" name="AOSP-JF-MM/platform_hardware_libhardware" groups="pdk" remote="github" revision="aosp-6.0" />
+  <project path="hardware/libhardware_legacy" name="AOSP-JF-MM/platform_hardware_libhardware_legacy" groups="pdk" remote="github" revision="aosp-6.0" />
+  <project path="hardware/qcom/wlan" name="AOSP-JF-MM/platform_hardware_qcom_wlan" groups="qcom_wlan" remote="github" revision="aosp-6.0" />
+  <project path="hardware/ril" name="AOSP-JF-MM/platform_hardware_ril" groups="pdk" remote="github" revision="aosp-6.0-test" />
+  <project path="libcore" name="AOSP-JF-MM/platform_libcore" groups="pdk" remote="github" revision="aosp-6.0-test" />
+  <project path="packages/apps/AudioFX" name="AOSP-JF-MM/platform_packages_apps_AudioFX" groups="pdk-fs" remote="github" revision="aosp-6.0" />
+  <project path="packages/apps/Bluetooth" name="AOSP-JF-MM/platform_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-6.0" />
+  <project path="packages/apps/Browser" name="AOSP-JF-MM/platform_packages_apps_Browser" groups="pdk-fs" remote="github" revision="aosp-6.0-test" />
+  <project path="packages/apps/Camera2" name="AOSP-JF-MM/platform_packages_apps_Camera2" groups="pdk-fs" remote="github" revision="aosp-6.0-test" />
+  <project path="packages/apps/CarrierConfig" name="AOSP-JF-MM/platform_packages_apps_CarrierConfig" groups="pdk-fs" remote="github" revision="aosp-6.0" />
+  <project path="packages/apps/Contacts" name="AOSP-JF-MM/platform_packages_apps_Contacts" groups="pdk-fs" remote="github" revision="aosp-6.0-test" />
+  <project path="packages/apps/ContactsCommon" name="AOSP-JF-MM/platform_packages_apps_ContactsCommon" groups="pdk-fs" remote="github" revision="aosp-6.0-test" />
+  <project path="packages/apps/DeskClock" name="AOSP-JF-MM/platform_packages_apps_DeskClock" groups="pdk-fs" remote="github" revision="aosp-6.0-test" />
+  <project path="packages/apps/Dialer" name="AOSP-JF-MM/platform_packages_apps_Dialer" groups="pdk-fs" remote="github" revision="aosp-6.0-test-caf" />
+  <project path="packages/apps/Exchange" name="AOSP-JF-MM/platform_packages_apps_Exchange" groups="pdk-fs" remote="github" revision="aosp-6.0-test" />
+  <project path="packages/apps/Gallery2" name="AOSP-JF-MM/platform_packages_apps_Gallery2" groups="pdk-fs" remote="github" revision="aosp-6.0-test" />
+  <project path="packages/apps/InCallUI" name="AOSP-JF-MM/platform_packages_apps_InCallUI" groups="pdk-fs" remote="github" revision="aosp-6.0-test-caf" />
+  <project path="packages/apps/Launcher3" name="AOSP-JF-MM/platform_packages_apps_Launcher3" groups="pdk-fs" remote="github" revision="aosp-6.0-test" />
+  <project path="packages/apps/PhoneCommon" name="AOSP-JF-MM/platform_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-6.0-test-caf" />
+  <project path="packages/apps/Settings" name="AOSP-JF-MM/platform_packages_apps_Settings" groups="pdk-fs" remote="github" revision="aosp-6.0-test-caf" />
+  <project path="packages/apps/SnapdragonCamera" name="AOSP-JF-MM/packages_apps_SnapdragonCamera" remote="github" revision="aosp-6.0-test" />
+  <project path="packages/apps/SoundRecorder" name="AOSP-JF-MM/platform_packages_apps_SoundRecorder" groups="pdk-fs" remote="github" revision="aosp-6.0-test" />
+  <project path="packages/apps/Stk" name="AOSP-JF-MM/platform_packages_apps_Stk" groups="apps_stk,pdk-fs" remote="github" revision="aosp-6.0-test" />
+  <project path="packages/apps/STweaks" name="AOSP-JF-MM/STweaks" remote="github" revision="aosp-6.0" />
+  <project path="packages/inputmethods/LatinIME" name="AOSP-JF-MM/platform_packages_inputmethods_LatinIME" groups="pdk-fs" remote="github" revision="aosp-6.0-test" />
+  <project path="packages/providers/MediaProvider" name="AOSP-JF-MM/platform_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-6.0-test" />
+  <project path="packages/providers/TelephonyProvider" name="AOSP-JF-MM/platform_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-6.0-test-caf" />
+  <project path="packages/services/Telecomm" name="AOSP-JF-MM/platform_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-6.0-test-caf" />
+  <project path="packages/services/Telephony" name="AOSP-JF-MM/platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-6.0-test-caf" />
+  <project path="system/bt" name="AOSP-JF-MM/platform_system_bt" groups="pdk" remote="github" revision="aosp-6.0" />
+  <project path="system/core" name="AOSP-JF-MM/platform_system_core" groups="pdk" remote="github" revision="aosp-6.0-test" />
+  <project path="system/extras" name="AOSP-JF-MM/platform_system_extras" groups="pdk" remote="github" revision="aosp-6.0-test" />
+  <project path="system/media" name="AOSP-JF-MM/platform_system_media" groups="pdk" remote="github" revision="aosp-6.0-test" />
+  <project path="system/vold" name="AOSP-JF-MM/platform_system_vold" groups="pdk" remote="github" revision="aosp-6.0-test-caf" />
+<!-- AOSP-JF -->
+
+<!-- CyanogenMod -->
+  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_external_busybox" path="external/busybox" remote="github" revision="cm-13.0" />
+  <project path="external/ant-wireless/ant_native" name="CyanogenMod/android_external_ant-wireless_ant_native" remote="github" revision="cm-13.0"/>
+  <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" remote="github" revision="cm-13.0" />
+  <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" remote="github" revision="cm-13.0" />
+  <project path="external/bash" name="CyanogenMod/android_external_bash" remote="github" revision="cm-13.0" />
+  <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" remote="github" revision="cm-13.0" />
+  <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" remote="github" revision="cm-13.0" groups="pdk" />
+  <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="github" revision="cm-13.0" />
+  <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" remote="github" revision="cm-13.0" />
+  <project path="external/fuse" name="CyanogenMod/android_external_fuse" remote="github" revision="cm-13.0" />
+  <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" groups="pdk" remote="github" revision="cm-13.0" />
+  <project path="external/libnfc-nci" name="CyanogenMod/android_external_libnfc-nci" groups="pdk" remote="github" revision="cm-13.0" />
+  <project path="external/libnfc-nxp" name="CyanogenMod/android_external_libnfc-nxp" groups="pdk" remote="github" revision="cm-13.0" />
+  <project path="external/libpng" name="CyanogenMod/android_external_libpng" groups="pdk" remote="github" revision="cm-13.0" />
+  <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="github" revision="cm-13.0" />
+  <project path="external/mm-dash" name="CyanogenMod/android_external_mm-dash" remote="github" revision="cm-13.0" />
+  <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" remote="github" revision="cm-13.0" />
+  <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" remote="github" revision="cm-13.0" />
+  <project path="external/sony/boringssl-compat" name="CyanogenMod/android_external_sony_boringssl-compat" remote="github" revision="cm-13.0" /> 
+  <project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="github" revision="cm-13.0" />
+  <project path="external/toybox" name="CyanogenMod/android_external_toybox" groups="pdk" remote="github" revision="cm-13.0" />
+  <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" groups="pdk" remote="github" revision="cm-13.0" />
+  <project path="frameworks/opt/net/ims" name="CyanogenMod/android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="github" revision="cm-13.0" />
+  <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" remote="github" revision="cm-13.0" />
+  <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-13.0" />
+  <project path="external/f2fs-tools" name="CyanogenMod/android_external_f2fs-tools" groups="pdk" remote="github" revision="cm-13.0" />
+  <project path="hardware/cyanogen" name="CyanogenMod/android_hardware_cyanogen" groups="qcom,qcom_audio" remote="github" revision="cm-13.0" />
+  <project path="hardware/qcom/audio/default" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-13.0" />
+  <project path="hardware/qcom/audio-caf/apq8084" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-13.0-caf-8084" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-13.0-caf-8916" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-13.0-caf-8960" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-13.0-caf-8974" />
+  <project path="hardware/qcom/audio-caf/msm8994" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-13.0-caf-8994" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-13.0-caf-8996" />
+  <project path="hardware/qcom/bt-caf" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" remote="github" revision="cm-13.0-caf" />
+  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-13.0" />
+  <project path="hardware/qcom/display-caf/apq8084" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-13.0-caf-8084" />
+  <project path="hardware/qcom/display-caf/msm8916" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-13.0-caf-8916" />
+  <project path="hardware/qcom/display-caf/msm8960" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-13.0-caf-8960" />
+  <project path="hardware/qcom/display-caf/msm8974" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-13.0-caf-8974" />
+  <project path="hardware/qcom/display-caf/msm8994" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-13.0-caf-8994" />
+  <project path="hardware/qcom/display-caf/msm8996" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-13.0-caf-8996" />
+  <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" remote="github" revision="cm-13.0" />
+  <project path="hardware/qcom/media-caf/apq8084" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-13.0-caf-8084" />
+  <project path="hardware/qcom/media-caf/msm8916" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-13.0-caf-8916" />
+  <project path="hardware/qcom/media-caf/msm8960" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-13.0-caf-8960" />
+  <project path="hardware/qcom/media-caf/msm8974" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-13.0-caf-8974" />
+  <project path="hardware/qcom/media-caf/msm8994" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-13.0-caf-8994" />
+  <project path="hardware/qcom/media-caf/msm8996" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-13.0-caf-8996" />
+  <project name="CyanogenMod/android_system_qcom" groups="qcom" path="system/qcom" remote="github" revision="cm-13.0" /> 
+  <project path="vendor/qcom/opensource/display-frameworks" name="CyanogenMod/android_vendor_qcom_opensource_display-frameworks" remote="github" revision="cm-13.0" />
+  <project path="vendor/qcom/opensource/dpm" name="CyanogenMod/android_vendor_qcom_opensource_dpm" remote="github" revision="cm-13.0" />
+  <project path="vendor/qcom/opensource/time-services" name="CyanogenMod/android_vendor_qcom_opensource_time-services" remote="github" revision="cm-13.0" />
+  <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" remote="github" revision="cm-13.0" />
+<!-- CyanogenMod -->
+
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
@@ -41,7 +156,6 @@
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/qcom/sepolicy" name="AOSP-JF-MM/platform_device_qcom_sepolicy" remote="github" revision="aosp-6.0-test" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
@@ -64,23 +178,19 @@
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk-fs" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
-  <project path="external/chromium-webview" name="AOSP-JF-MM/platform_external_chromium-webview" groups="pdk" remote="github" revision="aosp-6.0-test" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" />
   <project path="external/cmockery" name="platform/external/cmockery" groups="pdk-fs" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
-  <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" remote="github" revision="cm-13.0" />
   <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/crcalc" name="platform/external/crcalc" groups="pdk-fs" />
   <project path="external/deqp" name="platform/external/deqp" groups="pdk-fs" />
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" />
-  <project path="external/doclava" name="AOSP-JF-MM/platform_external_doclava" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-6.0" />
   <project path="external/donuts" name="platform/external/donuts" groups="pdk-fs" />
   <project path="external/drm_gralloc" name="platform/external/drm_gralloc" groups="drm_gralloc" />
   <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" groups="drm_hwcomposer" />
   <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" remote="github" revision="cm-13.0" groups="pdk" />
   <project path="external/easymock" name="platform/external/easymock" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" groups="pdk-cw-fs,pdk-fs" />
@@ -89,18 +199,14 @@
   <project path="external/embunit" name="platform/external/embunit" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/emma" name="platform/external/emma" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/esd" name="platform/external/esd" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="github" revision="cm-13.0" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/f2fs-tools" name="CyanogenMod/android_external_f2fs-tools" groups="pdk" remote="github" revision="cm-13.0" />
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" />
-  <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" remote="github" revision="cm-13.0" />
   <project path="external/fio" name="platform/external/fio" groups="pdk-fs" />
   <project path="external/flac" name="platform/external/flac" groups="pdk" />
   <project path="external/fonttools" name="platform/external/fonttools" groups="pdk-fs" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/fuse" name="CyanogenMod/android_external_fuse" remote="github" revision="cm-13.0" />
   <project path="external/giflib" name="platform/external/giflib" groups="pdk,qcom_msm8x26" />
   <project path="external/glide" name="platform/external/glide" groups="pdk-fs" />
   <project path="external/google-breakpad" name="platform/external/google-breakpad" groups="dragon" />
@@ -111,7 +217,6 @@
   <project path="external/google-tv-pairing-protocol" name="platform/external/google-tv-pairing-protocol" groups="pdk-fs" />
   <project path="external/gptfdisk" name="platform/external/gptfdisk" groups="pdk-fs" />
   <project path="external/gtest" name="platform/external/gtest" groups="pdk" />
-  <project path="external/guava" name="AOSP-JF-MM/platform_external_guava" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-6.0-test" />
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk,qcom_msm8x26" />
   <project path="external/hyphenation-patterns" name="platform/external/hyphenation-patterns" groups="pdk-fs" />
@@ -131,7 +236,6 @@
   <project path="external/jline" name="platform/external/jline" groups="notdefault,tradefed" />
   <project path="external/jmdns" name="platform/external/jmdns" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jmonkeyengine" name="platform/external/jmonkeyengine" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" groups="pdk" remote="github" revision="cm-13.0" />
   <project path="external/jsilver" name="platform/external/jsilver" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jsmn" name="platform/external/jsmn" groups="pdk" />
   <project path="external/jsoncpp" name="platform/external/jsoncpp" groups="pdk-cw-fs,pdk-fs" />
@@ -151,14 +255,11 @@
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libmpeg2" name="platform/external/libmpeg2" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/libnfc-nci" name="CyanogenMod/android_external_libnfc-nci" groups="pdk" remote="github" revision="cm-13.0" />
-  <project path="external/libnfc-nxp" name="CyanogenMod/android_external_libnfc-nxp" groups="pdk" remote="github" revision="cm-13.0" />
   <project path="external/libnl" name="platform/external/libnl" groups="pdk" />
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" />
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk,pdk-cw-fs,pdk-fs" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/libpng" name="CyanogenMod/android_external_libpng" groups="pdk" remote="github" revision="cm-13.0" />
   <project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
   <project path="external/libssh2" name="platform/external/libssh2" groups="pdk-cw-fs,pdk-fs" />
@@ -201,7 +302,6 @@
   <project path="external/nist-pkits" name="platform/external/nist-pkits" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/nist-sip" name="platform/external/nist-sip" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/noto-fonts" name="platform/external/noto-fonts" groups="pdk" />
-  <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" remote="github" revision="cm-13.0" />
   <project path="external/oauth" name="platform/external/oauth" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/objenesis" name="platform/external/objenesis" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/okhttp" name="platform/external/okhttp" groups="pdk-cw-fs,pdk-fs" />
@@ -222,45 +322,34 @@
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
   <project path="external/selinux" name="platform/external/selinux" groups="pdk" />
-  <project path="external/sepolicy" name="AOSP-JF-MM/platform_external_sepolicy" groups="pdk" remote="github" revision="aosp-6.0-test" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" />
-  <project path="external/skia" name="AOSP-JF-MM/platform_external_skia" groups="pdk-cw-fs,qcom_msm8x26" remote="github" revision="aosp-6.0" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk-fs" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/sonic" name="platform/external/sonic" groups="pdk" />
-  <project path="external/sonivox" name="AOSP-JF-MM/platform_external_sonivox" groups="pdk" remote="github" revision="aosp-6.0-test" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" />
   <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" remote="github" revision="cm-13.0" />
-  <project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="github" revision="cm-13.0" />
   <project path="external/strace" name="platform/external/strace" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/svox" name="platform/external/svox" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/tcpdump" name="platform/external/tcpdump" groups="pdk,pdk-cw-fs,pdk-fs" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/tinyalsa" name="AOSP-JF-MM/platform_external_tinyalsa" groups="pdk" remote="github" revision="aosp-6.0-test" />
   <project path="external/tinycompress" name="platform/external/tinycompress" groups="pdk" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" />
-  <project path="external/toybox" name="CyanogenMod/android_external_toybox" groups="pdk" remote="github" revision="cm-13.0" />
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />
   <project path="external/v8" name="platform/external/v8" groups="pdk" />
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" />
   <project path="external/vboot_reference" name="platform/external/vboot_reference" groups="vboot" />
   <project path="external/vixl" name="platform/external/vixl" groups="pdk" />
-  <project path="external/vogar" name="AOSP-JF-MM/platform_external_vogar" groups="pdk" remote="github" revision="aosp-6.0" />
   <project path="external/webp" name="platform/external/webp" groups="pdk,qcom_msm8x26" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" groups="pdk" remote="github" revision="cm-13.0" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/av" name="AOSP-JF-MM/platform_frameworks_av" groups="pdk" remote="github" revision="aosp-6.0" />
-  <project path="frameworks/base" name="AOSP-JF-MM/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-6.0-test-caf" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -269,9 +358,7 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/native" name="AOSP-JF-MM/platform_frameworks_native" groups="pdk" remote="github" revision="aosp-6.0" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" />
-  <project path="frameworks/opt/bluetooth" name="AOSP-JF-MM/platform_frameworks_opt_bluetooth" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-6.0" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/chips" name="platform/frameworks/opt/chips" groups="pdk-cw-fs,pdk-fs" />
@@ -281,99 +368,60 @@
   <project path="frameworks/opt/inputconnectioncommon" name="platform/frameworks/opt/inputconnectioncommon" groups="pdk-fs" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" groups="pdk-fs" />
-  <project path="frameworks/opt/net/ims" name="CyanogenMod/android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="github" revision="cm-13.0" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/net/wifi" name="AOSP-JF-MM/platform_frameworks_opt_net_wifi" groups="pdk" remote="github" revision="aosp-6.0-test" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/telephony" name="AOSP-JF-MM/platform_frameworks_opt_telephony" groups="pdk" remote="github" revision="aosp-6.0-test-caf" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
-  <project path="frameworks/support" name="AOSP-JF-MM/platform_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-6.0-test" />
   <project path="frameworks/data-binding" name="platform/frameworks/data-binding" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs" />
   <project path="hardware/akm" name="platform/hardware/akm" />
-  <project path="hardware/broadcom/libbt" name="AOSP-JF-MM/platform_hardware_broadcom_libbt" groups="pdk" remote="github" revision="aosp-6.0-test" />
-  <project path="hardware/broadcom/wlan" name="AOSP-JF-MM/platform_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="github" revision="aosp-6.0" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="AOSP-JF-MM/platform_hardware_libhardware" groups="pdk" remote="github" revision="aosp-6.0" />
-  <project path="hardware/libhardware_legacy" name="AOSP-JF-MM/platform_hardware_libhardware_legacy" groups="pdk" remote="github" revision="aosp-6.0" />
-  <project path="hardware/qcom/audio/default" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-13.0" />
-  <project path="hardware/qcom/audio-caf/msm8960" name="AOSP-JF-MM/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="msm8960-6.0-test" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
-  <project path="hardware/qcom/display-caf/msm8960" name="AOSP-JF-MM/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="msm8960-6.0-test" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" />
-  <project path="hardware/qcom/keymaster" name="AOSP-JF-MM/platform_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" remote="github" revision="aosp-6.0-test" />
-  <project path="hardware/qcom/media-caf/msm8960" name="AOSP-JF-MM/android_hardware_qcom_media" groups="qcom" remote="github" revision="msm8960-6.0-test" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
+  <project path="hardware/qcom/msm8994" name="platform/hardware/qcom/msm8994" groups="qcom_msm8994" />
   <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" />
   <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="pdk,qcom_msm8x74" />
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" />
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
-  <project path="hardware/qcom/wlan" name="AOSP-JF-MM/platform_hardware_qcom_wlan" groups="qcom_wlan" remote="github" revision="aosp-6.0" />
-  <project path="hardware/ril" name="AOSP-JF-MM/platform_hardware_ril" groups="pdk" remote="github" revision="aosp-6.0-test" />
-  <project path="hardware/samsung" name="AOSP-JF-MM/android_hardware_samsung" remote="github" revision="aosp-6.0-test" />
-  <project path="libcore" name="AOSP-JF-MM/platform_libcore" groups="pdk" remote="github" revision="aosp-6.0-test" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
-  <project path="packages/apps/AudioFX" name="AOSP-JF-MM/platform_packages_apps_AudioFX" groups="pdk-fs" remote="github" revision="aosp-6.0" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Bluetooth" name="AOSP-JF-MM/platform_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-6.0" />
-  <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" remote="github" revision="cm-13.0" />
-  <project path="packages/apps/Browser" name="AOSP-JF-MM/platform_packages_apps_Browser" groups="pdk-fs" remote="github" revision="aosp-6.0-test" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" groups="pdk-fs" />
-  <project path="packages/apps/Camera2" name="AOSP-JF-MM/platform_packages_apps_Camera2" groups="pdk-fs" remote="github" revision="aosp-6.0-test" />
-  <project path="packages/apps/CarrierConfig" name="AOSP-JF-MM/platform_packages_apps_CarrierConfig" groups="pdk-fs" remote="github" revision="aosp-6.0" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" groups="pdk-fs" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Contacts" name="AOSP-JF-MM/platform_packages_apps_Contacts" groups="pdk-fs" remote="github" revision="aosp-6.0-test" />
-  <project path="packages/apps/ContactsCommon" name="AOSP-JF-MM/platform_packages_apps_ContactsCommon" groups="pdk-fs" remote="github" revision="aosp-6.0-test" />
-  <project path="packages/apps/DeskClock" name="AOSP-JF-MM/platform_packages_apps_DeskClock" groups="pdk-fs" remote="github" revision="aosp-6.0-test" />
-  <project path="packages/apps/Dialer" name="AOSP-JF-MM/platform_packages_apps_Dialer" groups="pdk-fs" remote="github" revision="aosp-6.0-test-caf" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" groups="pdk-fs" />
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" />
-  <project path="packages/apps/Exchange" name="AOSP-JF-MM/platform_packages_apps_Exchange" groups="pdk-fs" remote="github" revision="aosp-6.0-test" />
   <project path="packages/apps/FMRadio" name="platform/packages/apps/FMRadio" groups="pdk-fs" />
-  <project path="packages/apps/Gallery2" name="AOSP-JF-MM/platform_packages_apps_Gallery2" groups="pdk-fs" remote="github" revision="aosp-6.0-test" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
-  <project path="packages/apps/InCallUI" name="AOSP-JF-MM/platform_packages_apps_InCallUI" groups="pdk-fs" remote="github" revision="aosp-6.0-test-caf" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
-  <project path="packages/apps/Launcher3" name="AOSP-JF-MM/platform_packages_apps_Launcher3" groups="pdk-fs" remote="github" revision="aosp-6.0-test" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
   <project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" groups="pdk-fs" />
-  <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" remote="github" revision="cm-13.0" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
   <project path="packages/apps/OTAUpdates" name="MatthewBooth/OTAUpdates" remote="github" revision="aosp" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="pdk-fs" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="pdk-fs" />
-  <project path="packages/apps/PhoneCommon" name="AOSP-JF-MM/platform_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-6.0-test-caf" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
-  <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-13.0" />
-  <project path="packages/apps/Settings" name="AOSP-JF-MM/platform_packages_apps_Settings" groups="pdk-fs" remote="github" revision="aosp-6.0-test-caf" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" groups="pdk-fs" />
-  <project path="packages/apps/SnapdragonCamera" name="AOSP-JF-MM/packages_apps_SnapdragonCamera" remote="github" revision="aosp-6.0-test" />
-  <project path="packages/apps/SoundRecorder" name="AOSP-JF-MM/platform_packages_apps_SoundRecorder" groups="pdk-fs" remote="github" revision="aosp-6.0-test" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" groups="pdk-fs" />
-  <project path="packages/apps/Stk" name="AOSP-JF-MM/platform_packages_apps_Stk" groups="apps_stk,pdk-fs" remote="github" revision="aosp-6.0-test" />
-  <project path="packages/apps/STweaks" name="AOSP-JF-MM/STweaks" remote="github" revision="aosp-6.0" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" groups="pdk-fs" />
   <project path="packages/apps/Terminal" name="platform/packages/apps/Terminal" groups="pdk-fs" />
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" groups="generic_fs" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" groups="pdk-fs" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="AOSP-JF-MM/platform_packages_inputmethods_LatinIME" groups="pdk-fs" remote="github" revision="aosp-6.0-test" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" groups="pdk-fs" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" groups="pdk-fs" />
   <project path="packages/providers/BookmarkProvider" name="platform/packages/providers/BookmarkProvider" groups="pdk-fs" />
@@ -381,17 +429,13 @@
   <project path="packages/providers/CallLogProvider" name="platform/packages/providers/CallLogProvider" groups="pdk-fs" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/providers/MediaProvider" name="AOSP-JF-MM/platform_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-6.0-test" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" groups="pdk-fs" />
-  <project path="packages/providers/TelephonyProvider" name="AOSP-JF-MM/platform_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-6.0-test-caf" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" groups="pdk-fs" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" groups="pdk-fs" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" groups="pdk-fs" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" groups="pdk-fs" />
   <project path="packages/services/Mms" name="platform/packages/services/Mms" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/services/Telecomm" name="AOSP-JF-MM/platform_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-6.0-test-caf" />
-  <project path="packages/services/Telephony" name="AOSP-JF-MM/platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-6.0-test-caf" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" groups="pdk-fs" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" groups="pdk-fs" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" groups="pdk-fs" />
@@ -423,15 +467,10 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
-  <project path="system/bt" name="AOSP-JF-MM/platform_system_bt" groups="pdk" remote="github" revision="aosp-6.0" />
-  <project path="system/core" name="AOSP-JF-MM/platform_system_core" groups="pdk" remote="github" revision="aosp-6.0-test" />
-  <project path="system/extras" name="AOSP-JF-MM/platform_system_extras" groups="pdk" remote="github" revision="aosp-6.0-test" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
-  <project path="system/media" name="AOSP-JF-MM/platform_system_media" groups="pdk" remote="github" revision="aosp-6.0-test" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/vold" name="AOSP-JF-MM/platform_system_vold" groups="pdk" remote="github" revision="aosp-6.0-test-caf" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
