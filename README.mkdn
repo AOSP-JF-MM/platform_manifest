@@ -14,3 +14,12 @@ To initialize your local repository using the AOSP trees, use a command like thi
 Then to sync up:
 
     repo sync
+
+
+NINJA BUILDS
+
+This ROM support ninja builds, the feature is still experimental, but works and builds fine
+
+In order to build with ninja you need Kati, convert all makefiles into a ninja file and then compile with ninja:
+
+    https://github.com/google/kati/blob/master/README.md#how-to-use-for-android-deprecated-way
