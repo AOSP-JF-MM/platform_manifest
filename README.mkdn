@@ -15,10 +15,25 @@ Then to sync up:
 
     repo sync
 
+Set up build enviroment
+
+    . build/envsetup.sh
+
+Disable block-based ota
+
+    export BLOCK_BASED_OTA=false
+
+Select device
+
+    lunch
+
+Compile the rom
+
+    mka otapackage
 
 NINJA BUILDS
 
-This ROM support ninja builds, the feature is still experimental, but works and builds fine
+This ROM support ninja builds, the feature is working without any issue (tested on Kubuntu Xenial)
 
 In order to build with ninja you need Kati, convert all makefiles into a ninja file and then compile with ninja:
 
