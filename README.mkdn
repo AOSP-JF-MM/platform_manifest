@@ -21,7 +21,7 @@ Set up build enviroment
 
 Disable block-based ota
 
-    export BLOCK_BASED_OTA=false
+    export BLOCK_BASED_OTA=false --> NOTE: this can be set in .profile file
 
 Select device
 
