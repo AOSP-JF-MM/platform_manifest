@@ -1,5 +1,7 @@
-The Android Open Source Project - Marshmallow 6.0 [STABLE BRANCH]
+The Android Open Source Project - Nougat 7.0
 ===========
+
+!!WIP!! !!DO NOT USE IT!!
 
 
 Getting Started
@@ -9,7 +11,7 @@ To get started with Android, you'll need to get familiar with [Git and Repo](htt
 
 To initialize your local repository using the AOSP trees, use a command like this:
 
-    repo init -u git://github.com/AOSP-JF-MM/platform_manifest.git -b aosp-6.0
+    repo init -u git://github.com/AOSP-JF-MM/platform_manifest.git -b aosp-7.0-test
 
 Then to sync up:
 
@@ -19,10 +21,6 @@ Set up build enviroment
 
     . build/envsetup.sh
 
-Disable block-based ota
-
-    export BLOCK_BASED_OTA=false --> NOTE: this can be set in .profile file
-
 Select device
 
     lunch
@@ -30,11 +28,3 @@ Select device
 Compile the rom
 
     mka otapackage
-
-NINJA BUILDS
-
-This ROM support ninja builds, the feature is working without any issue (tested on Kubuntu Xenial)
-
-In order to build with ninja you need Kati, convert all makefiles into a ninja file and then compile with ninja:
-
-    https://github.com/google/kati/blob/master/README.md#how-to-use-for-android-deprecated-way
