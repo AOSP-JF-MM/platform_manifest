@@ -274,7 +274,7 @@
   <project path="external/selinux" name="platform/external/selinux" groups="pdk" />
   <project path="external/shflags" name="platform/external/shflags" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" />
-  <project path="external/skia" name="platform/external/skia" groups="pdk,qcom_msm8x26" />
+  <project path="external/skia" name="AOSP-JF-MM/platform_external_skia" groups="pdk-cw-fs,qcom_msm8x26" remote="github" revision="aosp-7.0-test" />
   <project path="external/sl4a" name="platform/external/sl4a" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk-fs" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs,pdk-fs" />
@@ -346,7 +346,7 @@
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
-  <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/support" name="AOSP-JF-MM/platform_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-7.0-test" />
   <project path="frameworks/data-binding" name="platform/frameworks/data-binding" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs,pdk-fs" />
