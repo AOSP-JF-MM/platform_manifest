@@ -331,8 +331,8 @@
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="pdk,qcom_msm8x74" />
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
-  <project path="hardware/qcom/wlan" name="CyanogenMod/platform_hardware_qcom_wlan" groups="qcom_wlan" remote="github" revision="cm-13.0" />
-  <project path="hardware/qcom/wlan-caf" name="CyanogenMod/platform_hardware_qcom_wlan" groups="qcom_wlan" remote="github" revision="cm-13.0-caf" />
+  <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" remote="github" revision="cm-13.0" />
+  <project path="hardware/qcom/wlan-caf" name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" remote="github" revision="cm-13.0-caf" />
   <project path="hardware/ril" name="AOSP-JF-MM/platform_hardware_ril" groups="pdk" remote="github" revision="aosp-6.0-test" />
   <project path="hardware/ril-caf" name="CyanogenMod/android_hardware_ril" groups="pdk" remote="github" revision="cm-13.0-caf" />
   <project path="hardware/samsung" name="AOSP-JF-MM/android_hardware_samsung" remote="github" revision="aosp-6.0-test" />
@@ -478,7 +478,7 @@
   <project path="vendor/xiaomi" name="AOSP-JF-MM/proprietary_vendor_xiaomi" remote="github" revision="aosp-6.0"/>
 
   <!-- Xiaomi -->
-  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom-common" remote="github" revision="cm-13.0" />
+  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-13.0" />
   <project path="device/xiaomi/gemini" name="AOSP-JF-MM/platform_device_xiaomi_gemini" remote="github" revision="aosp-6.0" />
   <project path="kernel/xiaomi/msm8996" name="kernel/msm-3.18" remote="caf" revision="LA.HB.1.3.1" /> <!-- Temp, used only for headers -->
 </manifest>
