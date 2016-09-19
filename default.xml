@@ -554,7 +554,9 @@
   <project path="kernel/samsung/jf" name="AOSP-JF-MM/android_kernel_samsung_jf" remote="github" revision="aosp-7.0-test" />
 
   <!-- Vendor -->
-  <project path="vendor/aosp" name="AOSP-JF-MM/platform_vendor_aosp" remote="github" revision="aosp-7.0-test" />
+  <project path="vendor/aosp" name="AOSP-JF-MM/platform_vendor_aosp" remote="github" revision="aosp-7.0-test" >
+    <copyfile src="build.sh" dest="build.sh" />
+  </project>
   <project path="vendor/samsung" name="AOSP-JF-MM/proprietary_vendor_samsung" remote="github" revision="aosp-7.0-test" />
 
 </manifest>
