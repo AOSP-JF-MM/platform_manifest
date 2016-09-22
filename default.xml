@@ -253,7 +253,7 @@
   <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" remote="github" revision="staging/cm-14.0" />
   <project path="external/oauth" name="platform/external/oauth" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/objenesis" name="platform/external/objenesis" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/okhttp" name="platform/external/okhttp" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/okhttp" name="AOSP-JF-MM/platform_external_okhttp" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-7.0-test-caf" />
   <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/opencv3" name="platform/external/opencv3" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" groups="pdk-fs" />
@@ -315,7 +315,7 @@
   <project path="external/xmlrpcpp" name="platform/external/xmlrpcpp" groups="pdk" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
+  <project path="external/zlib" name="AOSP-JF-MM/platform_external_zlib" groups="pdk" remote="github" revision="aosp-7.0-test-caf" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/av" name="AOSP-JF-MM/platform_frameworks_av" groups="pdk" remote="github" revision="aosp-7.0-test" />
@@ -577,6 +577,8 @@
   <project path="external/protobuf-c" name="CyanogenMod/android_external_protobuf-c" remote="github" revision="staging/cm-14.0" />
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" remote="github" revision="staging/cm-14.0" />
   <project path="vendor/qcom/opensource/bluetooth" name="CyanogenMod/android_packages_apps_BluetoothExt" remote="github" revision="staging/cm-14.0" />
+  <project path="vendor/qcom/opensource/dataservices/" name="CyanogenMod/android_vendor_qcom_opensource_dataservices" remote="github" revision="staging/cm-14.0"/>
+  <project path="vendor/qcom/opensource/dpm/" name="CyanogenMod/android_vendor_qcom_opensource_dpm" remote="github" revision="staging/cm-14.0"/>
   <project path="vendor/codeaurora/opensource/telephony" name="CyanogenMod/android_vendor_codeaurora_telephony" remote="github" revision="staging/cm-14.0" />
 
   <!-- More vendor additions -->
