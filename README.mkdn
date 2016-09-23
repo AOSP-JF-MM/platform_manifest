@@ -11,7 +11,7 @@ To get started with Android, you'll need to get familiar with [Git and Repo](htt
 
 To initialize your local repository using the AOSP trees, use a command like this:
 
-    repo init -u git://github.com/AOSP-JF-MM/platform_manifest.git -b aosp-7.0-test
+    repo init -u git://github.com/AOSP-JF-MM/platform_manifest.git -b n
 
 Then to sync up:
 
