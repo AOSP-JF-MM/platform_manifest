@@ -65,6 +65,7 @@
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/boringssl" name="platform/external/boringssl" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" />
+  <project path="external/brctl" name="CyanogenMod/android_external_brctl" remote="github" revision="cm-13.0" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/cblas" name="platform/external/cblas" groups="pdk" />
@@ -90,6 +91,7 @@
   <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" remote="github" revision="cm-13.0" groups="pdk" />
   <project path="external/easymock" name="platform/external/easymock" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/ebtables" name="CyanogenMod/android_external_ebtables" remote="github" revision="cm-13.0" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/eigen" name="platform/external/eigen" groups="pdk" />
@@ -118,6 +120,7 @@
   <project path="external/google-fonts/dancing-script" name="platform/external/google-fonts/dancing-script" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/google-tv-pairing-protocol" name="platform/external/google-tv-pairing-protocol" groups="pdk-fs" />
   <project path="external/gptfdisk" name="CyanogenMod/android_external_gptfdisk" groups="pdk-fs" remote="github" revision="cm-13.0" />
+  <project path="external/gson" name="CyanogenMod/android_external_gson" remote="github" revision="cm-13.0" />
   <project path="external/gtest" name="platform/external/gtest" groups="pdk" />
   <project path="external/guava" name="AOSP-JF-MM/platform_external_guava" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-6.0-test" />
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk-cw-fs,pdk-fs" />
@@ -142,6 +145,7 @@
   <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" groups="pdk" remote="github" revision="cm-13.0" />
   <project path="external/jsilver" name="platform/external/jsilver" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jsmn" name="platform/external/jsmn" groups="pdk" />
+  <project path="external/json-c" name="CyanogenMod/android_external_json-c" remote="github" revision="cm-13.0" />
   <project path="external/jsoncpp" name="platform/external/jsoncpp" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jsr305" name="platform/external/jsr305" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/junit" name="platform/external/junit" groups="pdk-cw-fs,pdk-fs" />
@@ -224,9 +228,11 @@
   <project path="external/parameter-framework" name="platform/external/parameter-framework" groups="pdk-fs" />
   <project path="external/pcre" name="platform/external/pcre" groups="pdk" />
   <project path="external/pdfium" name="platform/external/pdfium" groups="pdk" />
+  <project path="external/powertop" name="CyanogenMod/android_external_powertop" remote="github" revision="cm-13.0" />
   <project path="external/ppp" name="platform/external/ppp" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/proguard" name="platform/external/proguard" groups="pdk" />
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" />
+  <project path="external/protobuf-c" name="CyanogenMod/android_external_protobuf-c" remote="github" revision="cm-13.0" />
   <project path="external/regex-re2" name="platform/external/regex-re2" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/replicaisland" name="platform/external/replicaisland" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/robolectric" name="platform/external/robolectric" groups="pdk-cw-fs,pdk-fs" />
