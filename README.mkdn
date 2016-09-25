@@ -1,7 +1,7 @@
 The Android Open Source Project - Nougat 7.0
 ===========
 
-!!WIP!! !!DO NOT USE IT!!
+!!GSM-ONLY FOR THE MOMENT!! -- !!CAUTION: MAY EAT YOUR CAT!!
 
 
 Getting Started
@@ -21,10 +21,12 @@ Set up build enviroment
 
     . build/envsetup.sh
 
+Disable block-based ota <-- NO MORE NEEDED
+
 Select device
 
     lunch
 
 Compile the rom
 
-    mka otapackage
+    mka bacon
