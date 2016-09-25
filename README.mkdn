@@ -19,9 +19,7 @@ Set up build enviroment
 
     . build/envsetup.sh
 
-Disable block-based ota
-
-    export BLOCK_BASED_OTA=false --> NOTE: this can be set in .profile file
+Disable block-based ota <-- NO MORE NEEDED
 
 Select device
 
@@ -29,7 +27,7 @@ Select device
 
 Compile the rom
 
-    mka otapackage
+    mka bacon
 
 NINJA BUILDS
 
