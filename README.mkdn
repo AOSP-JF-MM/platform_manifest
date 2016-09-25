@@ -3,6 +3,9 @@ The Android Open Source Project - Nougat 7.0
 
 !!WIP!! !!DO NOT USE IT!!
 
+1) DO NOT COMPILE WITH THIS BRANCH, USE aosp-7.0-test INSTEAD
+
+2) DO NOT PUSH ANYTHING IN CAF BRANCHES, AS I OFTEN FORCE REPOS UPDATE
 
 Getting Started
 ---------------
@@ -21,9 +24,7 @@ Set up build enviroment
 
     . build/envsetup.sh
 
-Disable block-based ota
-
-    export BLOCK_BASED_OTA=false --> NOTE: this can be set in .profile file
+Disable block-based ota <-- NO MORE NEEDED
 
 Select device
 
@@ -31,4 +32,4 @@ Select device
 
 Compile the rom
 
-    mka otapackage
+    mka bacon
