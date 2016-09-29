@@ -483,7 +483,7 @@
   <!-- Xiaomi Mi5 Device Tree -->
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-13.0" />
   <project path="device/xiaomi/gemini" name="AOSP-JF-MM/platform_device_xiaomi_gemini" remote="github" revision="aosp-6.0" />
-  <project path="kernel/xiaomi/msm8996" name="kernel/msm-3.18" remote="caf" revision="LA.HB.1.3.1" /> <!-- Temp, used only for headers -->
+  <project path="kernel/xiaomi/msm8996" name="AOSP-JF-MM/platform_kernel_xiaomi_msm8996" remote="github" revision="aosp-6.0" />
 
   <!-- Vendor Repos -->
   <project path="vendor/aosp" name="AOSP-JF-MM/platform_vendor_aosp" remote="github" revision="aosp-6.0-test-caf" />
