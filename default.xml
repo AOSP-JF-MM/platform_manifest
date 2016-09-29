@@ -157,7 +157,7 @@
   <project path="external/hyphenation-patterns" name="platform/external/hyphenation-patterns" groups="pdk-fs" />
   <project path="external/icu" name="platform/external/icu" groups="pdk" />
   <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" />
-  <project path="external/ipsec-tools" name="platform/external/ipsec-tools" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/ipsec-tools" name="AOSP-JF-MM/platform_external_ipsec-tools" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-7.0-test" />
   <project path="external/iptables" name="platform/external/iptables" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/iputils" name="platform/external/iputils" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/iw" name="platform/external/iw" />
