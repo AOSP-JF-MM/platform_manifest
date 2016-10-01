@@ -107,7 +107,7 @@
   <project path="external/dbus-binding-generator" name="platform/external/dbus-binding-generator" />
   <project path="external/deqp" name="platform/external/deqp" groups="pdk-fs" />
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/dhcpcd-6.8.2" name="CyanogenMod/android_external_dhcpcd-6.8.2" remote="github" revision="cm-14.0" />
+  <project path="external/dhcpcd-6.8.2" name="CyanogenMod/android_external_dhcpcd-6.8.2" remote="github" revision="staging/cm-14.0" />
   <project path="external/dlmalloc" name="platform/external/dlmalloc" />
   <project path="external/dng_sdk" name="platform/external/dng_sdk" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" />
