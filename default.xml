@@ -493,6 +493,11 @@
   <project path="device/xiaomi/gemini" name="AOSP-JF-MM/platform_device_xiaomi_gemini" remote="github" revision="aosp-6.0" />
   <project path="kernel/xiaomi/msm8996" name="AOSP-JF-MM/platform_kernel_xiaomi_msm8996" remote="github" revision="aosp-6.0" />
 
+  <!-- LGE G5 Device Tree -->
+  <project path="device/lge/g5-common" name="AOSP-JF-MM/platform_device_lge_g5-common" remote="github" revision="aosp-6.0" />
+  <project path="device/lge/h850" name="AOSP-JF-MM/platform_device_lge_h850" remote="github" revision="aosp-6.0" />
+  <project path="kernel/lge/msm8996" name="AOSP-JF-MM/platform_kernel_lge_msm8996" remote="github" revision="aosp-6.0" />
+
   <!-- Vendor Repos -->
   <project path="vendor/aosp" name="AOSP-JF-MM/platform_vendor_aosp" remote="github" revision="aosp-6.0-test-caf" />
   <project path="vendor/nxp-nfc/opensource/frameworks/" name="CyanogenMod/android_vendor_nxp-nfc_opensource_frameworks" remote="github" revision="cm-13.0"/>
@@ -503,4 +508,5 @@
   <project path="vendor/qcom/opensource/dpm/" name="CyanogenMod/android_vendor_qcom_opensource_dpm" remote="github" revision="cm-13.0"/>
   <project path="vendor/qcom/opensource/time-services/" name="CyanogenMod/android_vendor_qcom_opensource_time-services" remote="github" revision="cm-13.0"/>
   <project path="vendor/xiaomi" name="AOSP-JF-MM/proprietary_vendor_xiaomi" remote="github" revision="aosp-6.0"/>
+  <project path="vendor/lge" name="AOSP-JF-MM/proprietary_vendor_lge" remote="github" revision="aosp-6.0"/>
 </manifest>
