@@ -1,11 +1,9 @@
-The Android Open Source Project - Nougat 7.0
+The Android Open Source Project - Nougat 7.1
 ===========
 
 !!WIP!! !!DO NOT USE IT!!
 
-1) DO NOT COMPILE WITH THIS BRANCH, USE aosp-7.0-test INSTEAD
-
-2) DO NOT PUSH ANYTHING IN CAF BRANCHES, AS I OFTEN FORCE REPOS UPDATE
+NOT TESTED, 7.1 SOURCES NOT YET MERGED IN ALL REPOS, DO NOT SYNC THIS MANIFEST, IT'S USELESS FOR NOW
 
 Getting Started
 ---------------
@@ -14,7 +12,7 @@ To get started with Android, you'll need to get familiar with [Git and Repo](htt
 
 To initialize your local repository using the AOSP trees, use a command like this:
 
-    repo init -u git://github.com/AOSP-JF-MM/platform_manifest.git -b aosp-7.0-test-caf
+    repo init -u git://github.com/AOSP-JF-MM/platform_manifest.git -b aosp-7.1
 
 Then to sync up:
 
