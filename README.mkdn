@@ -3,8 +3,6 @@ The Android Open Source Project - Nougat 7.1
 
 !!WIP!! !!DO NOT USE IT!!
 
-NOT TESTED, 7.1 SOURCES NOT YET MERGED IN ALL REPOS, DO NOT SYNC THIS MANIFEST, IT'S USELESS FOR NOW
-
 Getting Started
 ---------------
 
