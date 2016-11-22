@@ -587,7 +587,7 @@
   <project path="vendor/qcom/opensource/dataservices/" name="CyanogenMod/android_vendor_qcom_opensource_dataservices" remote="github" revision="cm-14.1"/>
   <project path="vendor/qcom/opensource/dpm/" name="CyanogenMod/android_vendor_qcom_opensource_dpm" remote="github" revision="cm-14.1"/>
   <project path="vendor/qcom/opensource/time-services/" name="CyanogenMod/android_vendor_qcom_opensource_time-services" remote="github" revision="cm-14.1"/>
-  <project path="vendor/codeaurora/opensource/telephony" name="CyanogenMod/android_vendor_codeaurora_telephony" remote="github" revision="cm-14.1" />
+  <project path="vendor/codeaurora/telephony" name="CyanogenMod/android_vendor_codeaurora_telephony" remote="github" revision="cm-14.1" />
 
   <!-- More vendor additions -->
   <project path="vendor/nxp-nfc/opensource/frameworks" name="CyanogenMod/android_vendor_nxp-nfc_opensource_frameworks" remote="github" revision="cm-14.1" />
