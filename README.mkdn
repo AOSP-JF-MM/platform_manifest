@@ -1,7 +1,6 @@
-The Android Open Source Project - Nougat 7.1
+The Android Open Source Project - Nougat 7.1 [BETA STAGE]
 ===========
 
-!!WIP!! !!DO NOT USE IT!!
 
 Getting Started
 ---------------
