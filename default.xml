@@ -564,10 +564,16 @@
   <project path="device/xiaomi/gemini" name="AOSP-JF-MM/platform_device_xiaomi_gemini" remote="github" revision="aosp-7.1" />
   <project path="kernel/xiaomi/msm8996" name="AOSP-JF-MM/platform_kernel_xiaomi_msm8996" remote="github" revision="aosp-7.1" />
 
+  <!-- LGE G5 Device Tree -->
+  <project path="device/lge/g5-common" name="AOSP-JF-MM/platform_device_lge_g5-common" remote="github" revision="aosp-7.1" />
+  <project path="device/lge/h850" name="AOSP-JF-MM/platform_device_lge_h850" remote="github" revision="aosp-7.1" />
+  <project path="kernel/lge/msm8996" name="AOSP-JF-MM/platform_kernel_lge_msm8996" remote="github" revision="aosp-7.1" />
+
   <!-- Vendor -->
   <project path="vendor/aosp" name="AOSP-JF-MM/platform_vendor_aosp" remote="github" revision="aosp-7.1" />
   <project path="vendor/samsung" name="AOSP-JF-MM/proprietary_vendor_samsung" remote="github" revision="aosp-7.1" />
   <project path="vendor/xiaomi" name="AOSP-JF-MM/proprietary_vendor_xiaomi" remote="github" revision="aosp-7.1"/>
+  <project path="vendor/lge" name="AOSP-JF-MM/proprietary_vendor_lge" remote="github" revision="aosp-7.1"/>
 
   <!-- CodeAurora additions -->
   <project path="external/ant-wireless/ant_native" name="CyanogenMod/android_external_ant-wireless_ant_native" remote="github" revision="cm-14.1" />
