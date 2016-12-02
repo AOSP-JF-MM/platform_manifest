@@ -19,7 +19,9 @@ Set up build enviroment
 
     . build/envsetup.sh
 
-Disable block-based ota <-- NO MORE NEEDED
+If you want to disable block-based OTA
+
+    export BLOCK_BASED_OTA=false
 
 Select device
 

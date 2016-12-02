@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- HALs -->
+  <project path="hardware/akm" name="platform/hardware/akm" />
+  <project path="hardware/broadcom/libbt" name="AOSP-JF-MM/platform_hardware_broadcom_libbt" groups="pdk" remote="github" revision="aosp-7.1" />
+  <project path="hardware/broadcom/wlan" name="AOSP-JF-MM/platform_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="github" revision="aosp-7.1" />
+  <!-- <project path="hardware/bsp/intel" name="platform/hardware/bsp/intel" /> -->
+  <project path="hardware/google/apf" name="platform/hardware/google/apf" groups="pdk" />
+  <!-- <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" /> -->
+  <!-- <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" /> -->
+  <!-- <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" /> -->
+  <!-- <project path="hardware/intel/common/libmix" name="platform/hardware/intel/common/libmix" groups="intel" /> -->
+  <!-- <project path="hardware/intel/common/libstagefrighthw" name="platform/hardware/intel/common/libstagefrighthw" groups="intel" /> -->
+  <!-- <project path="hardware/intel/common/libva" name="platform/hardware/intel/common/libva" groups="intel" /> -->
+  <!-- <project path="hardware/intel/common/libwsbm" name="platform/hardware/intel/common/libwsbm" groups="intel" /> -->
+  <!-- <project path="hardware/intel/common/omx-components" name="platform/hardware/intel/common/omx-components" groups="intel" /> -->
+  <!-- <project path="hardware/intel/common/utils" name="platform/hardware/intel/common/utils" groups="intel" /> -->
+  <!-- <project path="hardware/intel/common/wrs_omxil_core" name="platform/hardware/intel/common/wrs_omxil_core" groups="intel" /> -->
+  <!-- <project path="hardware/intel/img/hwcomposer" name="platform/hardware/intel/img/hwcomposer" groups="intel" /> -->
+  <!-- <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" /> -->
+  <!-- <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" /> -->
+  <!-- <project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" groups="intel_sensors" /> -->
+  <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
+  <project path="hardware/libhardware" name="AOSP-JF-MM/platform_hardware_libhardware" groups="pdk" remote="github" revision="aosp-7.1" />
+  <project path="hardware/libhardware_legacy" name="AOSP-JF-MM/platform_hardware_libhardware_legacy" groups="pdk" remote="github" revision="aosp-7.1" />
+  <!-- <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" /> -->
+  <project path="hardware/ril" name="AOSP-JF-MM/platform_hardware_ril" groups="pdk" remote="github" revision="aosp-7.1" />
+  <project path="hardware/ril-caf" name="AOSP-JF-MM/platform_hardware_ril" groups="pdk" remote="github" revision="aosp-7.1-caf" />
+  <project path="hardware/samsung" name="AOSP-JF-MM/android_hardware_samsung" remote="github" revision="aosp-7.1" />
+  <!-- <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" /> -->
+  <!-- <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" /> -->
+  <!-- <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" /> -->
+
+  <!-- Qualcomm HALs -->
+  <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk" />
+  <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
+  <!-- <project path="hardware/qcom/msm8994" name="platform/hardware/qcom/msm8994" groups="qcom_msm8994" /> -->
+  <project path="hardware/qcom/msm8996" name="platform/hardware/qcom/msm8996" groups="qcom_msm8996" />
+  <!-- <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" /> -->
+  <!-- <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" /> -->
+  <!-- <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" /> -->
+  <project path="hardware/qcom/audio/default" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-14.1" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="AOSP-JF-MM/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="msm8960-7.1" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-14.1-caf-8996" />
+  <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" remote="github" revision="cm-14.1" />
+  <project path="hardware/qcom/bt-caf" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" remote="github" revision="cm-14.1-caf" />
+  <project path="hardware/qcom/camera" name="AOSP-JF-MM/platform_hardware_qcom_camera" groups="qcom" remote="github" revision="aosp-7.1" />
+  <project path="hardware/qcom/display-caf/msm8960" name="AOSP-JF-MM/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="msm8960-7.1" />
+  <project path="hardware/qcom/display-caf/msm8996" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-14.1-caf-8996" />
+  <project path="hardware/qcom/gps" name="AOSP-JF-MM/platform_hardware_qcom_gps" groups="qcom,qcom_gps" remote="github" revision="aosp-7.1" />
+  <project path="hardware/qcom/keymaster" name="AOSP-JF-MM/platform_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" remote="github" revision="aosp-7.1" />
+  <project path="hardware/qcom/media-caf/msm8960" name="AOSP-JF-MM/android_hardware_qcom_media" groups="qcom" remote="github" revision="msm8960-7.1" />
+  <project path="hardware/qcom/media-caf/msm8996" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-14.1-caf-8996" />
+  <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" remote="github" revision="cm-14.1" />
+  <project path="hardware/qcom/wlan-caf" name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" remote="github" revision="cm-14.1-caf" />
+
+</manifest>
