@@ -104,7 +104,7 @@
   <project path="vendor/nxp-nfc/opensource/frameworks" name="CyanogenMod/android_vendor_nxp-nfc_opensource_frameworks" remote="github" revision="cm-14.1" />
   <project path="vendor/nxp-nfc/opensource/libnfc-nci" name="CyanogenMod/android_vendor_nxp-nfc_opensource_libnfc-nci" remote="github" revision="cm-14.1" />
   <project path="vendor/nxp-nfc/opensource/Nfc" name="CyanogenMod/android_vendor_nxp-nfc_opensource_Nfc" remote="github" revision="cm-14.1" />
-  <project path="vendor/qcom/binaries" name="TheMuppets/proprietary_vendor_qcom_binaries" remote="github" revision="cm-14.1" />
+  <project path="vendor/qcom/binaries" name="AOSP-JF-MM/proprietary_vendor_qcom_binaries" remote="github" revision="aosp-7.1.1" />
   <project path="vendor/qcom/opensource/bluetooth" name="CyanogenMod/android_vendor_qcom_opensource_bluetooth" remote="github" revision="cm-14.1" />
   <project path="vendor/qcom/opensource/dataservices/" name="CyanogenMod/android_vendor_qcom_opensource_dataservices" remote="github" revision="cm-14.1"/>
   <project path="vendor/qcom/opensource/dpm/" name="CyanogenMod/android_vendor_qcom_opensource_dpm" remote="github" revision="cm-14.1"/>
