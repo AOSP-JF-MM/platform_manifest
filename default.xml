@@ -53,9 +53,9 @@
   <project path="external/android-mock" name="platform/external/android-mock" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/androidplot" name="platform/external/androidplot" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/ant-glob" name="platform/external/ant-glob" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/ant-wireless/ant_native" name="CyanogenMod/android_external_ant-wireless_ant_native" remote="github" revision="cm-13.0" />
-  <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" remote="github" revision="cm-13.0" />
-  <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" remote="github" revision="cm-13.0" />
+  <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" remote="github" revision="cm-13.0" />
+  <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" remote="github" revision="cm-13.0" />
+  <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="github" revision="cm-13.0" />
   <project path="external/antlr" name="platform/external/antlr" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/apache-commons-math" name="platform/external/apache-commons-math" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" groups="pdk-cw-fs,pdk-fs" />
@@ -65,7 +65,7 @@
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/boringssl" name="AOSP-JF-MM/platform_external_boringssl" groups="pdk" remote="github" revision="aosp-6.0" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" />
-  <project path="external/brctl" name="CyanogenMod/android_external_brctl" remote="github" revision="cm-13.0" />
+  <project path="external/brctl" name="LineageOS/android_external_brctl" remote="github" revision="cm-13.0" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/bzip2" name="AOSP-JF-MM/platform_external_bzip2" groups="pdk" remote="github" revision="aosp-6.0" />
   <project path="external/cblas" name="platform/external/cblas" groups="pdk" />
@@ -76,22 +76,22 @@
   <project path="external/clang" name="platform/external/clang" groups="pdk" />
   <project path="external/cmockery" name="platform/external/cmockery" groups="pdk-fs" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
-  <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" remote="github" revision="cm-13.0" />
+  <project path="external/connectivity" name="LineageOS/android_external_connectivity" remote="github" revision="cm-13.0" />
   <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/crcalc" name="platform/external/crcalc" groups="pdk-fs" />
-  <project path="external/curl" name="CyanogenMod/android_external_curl" groups="pdk-fs" remote="github" revision="cm-13.0" />
+  <project path="external/curl" name="LineageOS/android_external_curl" groups="pdk-fs" remote="github" revision="cm-13.0" />
   <project path="external/deqp" name="platform/external/deqp" groups="pdk-fs" />
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/dhcpcd" name="CyanogenMod/android_external_dhcpcd" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-13.0" />
+  <project path="external/dhcpcd" name="LineageOS/android_external_dhcpcd" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-13.0" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" />
   <project path="external/doclava" name="AOSP-JF-MM/platform_external_doclava" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-6.0" />
   <project path="external/donuts" name="platform/external/donuts" groups="pdk-fs" />
   <project path="external/drm_gralloc" name="platform/external/drm_gralloc" groups="drm_gralloc" />
   <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" groups="drm_hwcomposer" />
   <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" remote="github" revision="cm-13.0" groups="pdk" />
+  <project path="external/e2fsprogs" name="LineageOS/android_external_e2fsprogs" remote="github" revision="cm-13.0" groups="pdk" />
   <project path="external/easymock" name="platform/external/easymock" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/ebtables" name="CyanogenMod/android_external_ebtables" remote="github" revision="cm-13.0" />
+  <project path="external/ebtables" name="LineageOS/android_external_ebtables" remote="github" revision="cm-13.0" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/eigen" name="platform/external/eigen" groups="pdk" />
@@ -99,18 +99,18 @@
   <project path="external/embunit" name="platform/external/embunit" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/emma" name="platform/external/emma" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/esd" name="platform/external/esd" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="github" revision="cm-13.0" />
+  <project path="external/exfat" name="LineageOS/android_external_exfat" remote="github" revision="cm-13.0" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/f2fs-tools" name="CyanogenMod/android_external_f2fs-tools" groups="pdk" remote="github" revision="cm-13.0" />
+  <project path="external/f2fs-tools" name="LineageOS/android_external_f2fs-tools" groups="pdk" remote="github" revision="cm-13.0" />
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" />
-  <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" remote="github" revision="cm-13.0" />
+  <project path="external/ffmpeg" name="LineageOS/android_external_ffmpeg" remote="github" revision="cm-13.0" />
   <project path="external/fio" name="platform/external/fio" groups="pdk-fs" />
   <project path="external/flac" name="platform/external/flac" groups="pdk" />
   <project path="external/fonttools" name="platform/external/fonttools" groups="pdk-fs" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/fuse" name="CyanogenMod/android_external_fuse" remote="github" revision="cm-13.0" />
+  <project path="external/fuse" name="LineageOS/android_external_fuse" remote="github" revision="cm-13.0" />
   <project path="external/giflib" name="platform/external/giflib" groups="pdk,qcom_msm8x26" />
   <project path="external/glide" name="platform/external/glide" groups="pdk-fs" />
   <project path="external/google-breakpad" name="platform/external/google-breakpad" groups="dragon" />
@@ -119,8 +119,8 @@
   <project path="external/google-fonts/cutive-mono" name="platform/external/google-fonts/cutive-mono" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/google-fonts/dancing-script" name="platform/external/google-fonts/dancing-script" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/google-tv-pairing-protocol" name="platform/external/google-tv-pairing-protocol" groups="pdk-fs" />
-  <project path="external/gptfdisk" name="CyanogenMod/android_external_gptfdisk" groups="pdk-fs" remote="github" revision="cm-13.0" />
-  <project path="external/gson" name="CyanogenMod/android_external_gson" remote="github" revision="cm-13.0" />
+  <project path="external/gptfdisk" name="LineageOS/android_external_gptfdisk" groups="pdk-fs" remote="github" revision="cm-13.0" />
+  <project path="external/gson" name="LineageOS/android_external_gson" remote="github" revision="cm-13.0" />
   <project path="external/gtest" name="platform/external/gtest" groups="pdk" />
   <project path="external/guava" name="AOSP-JF-MM/platform_external_guava" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-6.0-test" />
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk-cw-fs,pdk-fs" />
@@ -142,10 +142,10 @@
   <project path="external/jline" name="platform/external/jline" groups="notdefault,tradefed" />
   <project path="external/jmdns" name="platform/external/jmdns" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jmonkeyengine" name="platform/external/jmonkeyengine" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" groups="pdk" remote="github" revision="cm-13.0" />
+  <project path="external/jpeg" name="LineageOS/android_external_jpeg" groups="pdk" remote="github" revision="cm-13.0" />
   <project path="external/jsilver" name="platform/external/jsilver" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jsmn" name="platform/external/jsmn" groups="pdk" />
-  <project path="external/json-c" name="CyanogenMod/android_external_json-c" remote="github" revision="cm-13.0" />
+  <project path="external/json-c" name="LineageOS/android_external_json-c" remote="github" revision="cm-13.0" />
   <project path="external/jsoncpp" name="platform/external/jsoncpp" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jsr305" name="platform/external/jsr305" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/junit" name="platform/external/junit" groups="pdk-cw-fs,pdk-fs" />
@@ -163,17 +163,17 @@
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libmpeg2" name="platform/external/libmpeg2" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="github" revision="cm-13.0" />
-  <project path="external/libnetfilter_conntrack" name="CyanogenMod/android_external_libnetfilter_conntrack" remote="github" revision="cm-13.0" />
-  <project path="external/libnfc-nci" name="CyanogenMod/android_external_libnfc-nci" groups="pdk" remote="github" revision="cm-13.0" />
-  <project path="external/libnfc-nxp" name="CyanogenMod/android_external_libnfc-nxp" groups="pdk" remote="github" revision="cm-13.0" />
-  <project path="external/libnfnetlink" name="CyanogenMod/android_external_libnfnetlink" remote="github" revision="cm-13.0" />
+  <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="github" revision="cm-13.0" />
+  <project path="external/libnetfilter_conntrack" name="LineageOS/android_external_libnetfilter_conntrack" remote="github" revision="cm-13.0" />
+  <project path="external/libnfc-nci" name="LineageOS/android_external_libnfc-nci" groups="pdk" remote="github" revision="cm-13.0" />
+  <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" groups="pdk" remote="github" revision="cm-13.0" />
+  <project path="external/libnfnetlink" name="LineageOS/android_external_libnfnetlink" remote="github" revision="cm-13.0" />
   <project path="external/libnl" name="platform/external/libnl" groups="pdk" />
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" />
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk,pdk-cw-fs,pdk-fs" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/libpng" name="CyanogenMod/android_external_libpng" groups="pdk" remote="github" revision="cm-13.0" />
+  <project path="external/libpng" name="LineageOS/android_external_libpng" groups="pdk" remote="github" revision="cm-13.0" />
   <project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
   <project path="external/libssh2" name="platform/external/libssh2" groups="pdk-cw-fs,pdk-fs" />
@@ -188,7 +188,7 @@
   <project path="external/libxml2" name="AOSP-JF-MM/platform_external_libxml2" groups="pdk-cw-fs,pdk-fs,libxml2" remote="github" revision="aosp-6.0" />
   <project path="external/libyuv" name="platform/external/libyuv" groups="libyuv,pdk-cw-fs,pdk-fs" />
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/libtruezip" name="CyanogenMod/android_external_libtruezip" remote="github" revision="cm-13.0" />
+  <project path="external/libtruezip" name="LineageOS/android_external_libtruezip" remote="github" revision="cm-13.0" />
   <project path="external/littlemock" name="platform/external/littlemock" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/lld" name="platform/external/lld" groups="pdk-fs" />
   <project path="external/lldb" name="platform/external/lldb" groups="pdk-cw-fs,pdk-fs" />
@@ -196,14 +196,14 @@
   <project path="external/ltrace" name="platform/external/ltrace" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/lz4" name="AOSP-JF-MM/platform_external_lz4" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-6.0" />
   <project path="external/lzma" name="AOSP-JF-MM/platform_external_lzma" groups="pdk" remote="github" revision="aosp-6.0" />
-  <project path="external/lzo" name="CyanogenMod/android_external_lzo" remote="github" revision="cm-13.0" />
+  <project path="external/lzo" name="LineageOS/android_external_lzo" remote="github" revision="cm-13.0" />
   <project path="external/marisa-trie" name="platform/external/marisa-trie" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/markdown" name="platform/external/markdown" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" />
   <project path="external/mesa3d" name="platform/external/mesa3d" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/messageformat" name="platform/external/messageformat" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/mksh" name="platform/external/mksh" groups="pdk" />
-  <project path="external/mm-dash" name="CyanogenMod/android_external_mm-dash" remote="github" revision="cm-13.0" />
+  <project path="external/mm-dash" name="LineageOS/android_external_mm-dash" remote="github" revision="cm-13.0" />
   <project path="external/mockftpserver" name="platform/external/mockftpserver" groups="pdk-fs" />
   <project path="external/mockito" name="platform/external/mockito" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/mockwebserver" name="platform/external/mockwebserver" groups="pdk-cw-fs,pdk-fs" />
@@ -219,7 +219,7 @@
   <project path="external/nist-pkits" name="platform/external/nist-pkits" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/nist-sip" name="platform/external/nist-sip" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/noto-fonts" name="platform/external/noto-fonts" groups="pdk" />
-  <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" remote="github" revision="cm-13.0" />
+  <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="github" revision="cm-13.0" />
   <project path="external/oauth" name="platform/external/oauth" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/objenesis" name="platform/external/objenesis" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/okhttp" name="AOSP-JF-MM/platform_external_okhttp" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-6.0" />
@@ -228,15 +228,15 @@
   <project path="external/openssh" name="platform/external/openssh" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" groups="pdk-fs" />
   <project path="external/parameter-framework" name="platform/external/parameter-framework" groups="pdk-fs" />
-  <project path="external/p7zip" name="CyanogenMod/android_external_p7zip" remote="github" revision="cm-13.0" />
+  <project path="external/p7zip" name="LineageOS/android_external_p7zip" remote="github" revision="cm-13.0" />
   <project path="external/pcre" name="platform/external/pcre" groups="pdk" />
-  <project path="external/pigz" name="CyanogenMod/android_external_pigz" remote="github" revision="cm-13.0" />
+  <project path="external/pigz" name="LineageOS/android_external_pigz" remote="github" revision="cm-13.0" />
   <project path="external/pdfium" name="platform/external/pdfium" groups="pdk" />
-  <project path="external/powertop" name="CyanogenMod/android_external_powertop" remote="github" revision="cm-13.0" />
+  <project path="external/powertop" name="LineageOS/android_external_powertop" remote="github" revision="cm-13.0" />
   <project path="external/ppp" name="platform/external/ppp" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/proguard" name="platform/external/proguard" groups="pdk" />
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" />
-  <project path="external/protobuf-c" name="CyanogenMod/android_external_protobuf-c" remote="github" revision="cm-13.0" />
+  <project path="external/protobuf-c" name="LineageOS/android_external_protobuf-c" remote="github" revision="cm-13.0" />
   <project path="external/regex-re2" name="platform/external/regex-re2" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/replicaisland" name="platform/external/replicaisland" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/robolectric" name="platform/external/robolectric" groups="pdk-cw-fs,pdk-fs" />
@@ -255,8 +255,8 @@
   <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" remote="github" revision="cm-13.0" />
-  <project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="github" revision="cm-13.0" />
+  <project path="external/stagefright-plugins" name="LineageOS/android_external_stagefright-plugins" remote="github" revision="cm-13.0" />
+  <project path="external/stlport" name="LineageOS/android_external_stlport" remote="github" revision="cm-13.0" />
   <project path="external/strace" name="platform/external/strace" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/svox" name="platform/external/svox" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk-cw-fs,pdk-fs" />
@@ -268,8 +268,8 @@
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" />
   <project path="external/toybox" name="platform/external/toybox" groups="pdk" />
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />
-  <project path="external/unrar" name="CyanogenMod/android_external_unrar" remote="github" revision="cm-13.0" />
-  <project path="external/unzip" name="CyanogenMod/android_external_unzip" remote="github" revision="cm-13.0" />
+  <project path="external/unrar" name="LineageOS/android_external_unrar" remote="github" revision="cm-13.0" />
+  <project path="external/unzip" name="LineageOS/android_external_unzip" remote="github" revision="cm-13.0" />
   <project path="external/v8" name="platform/external/v8" groups="pdk" />
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" />
   <project path="external/vboot_reference" name="platform/external/vboot_reference" groups="vboot" />
@@ -277,11 +277,11 @@
   <project path="external/vogar" name="AOSP-JF-MM/platform_external_vogar" groups="pdk" remote="github" revision="aosp-6.0" />
   <project path="external/webp" name="platform/external/webp" groups="pdk,qcom_msm8x26" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" groups="pdk" remote="github" revision="cm-13.0" />
-  <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" groups="pdk" remote="github" revision="cm-13.0" />
+  <project path="external/wpa_supplicant_8" name="LineageOS/android_external_wpa_supplicant_8" groups="pdk" remote="github" revision="cm-13.0" />
+  <project path="external/yaffs2" name="LineageOS/android_external_yaffs2" groups="pdk" remote="github" revision="cm-13.0" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/zip" name="CyanogenMod/android_external_zip" remote="github" revision="cm-13.0" />
+  <project path="external/zip" name="LineageOS/android_external_zip" remote="github" revision="cm-13.0" />
   <project path="external/zlib" name="AOSP-JF-MM/platform_external_zlib" groups="pdk" remote="github" revision="aosp-6.0" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
@@ -307,7 +307,7 @@
   <project path="frameworks/opt/inputconnectioncommon" name="platform/frameworks/opt/inputconnectioncommon" groups="pdk-fs" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" groups="pdk-fs" />
-  <project path="frameworks/opt/net/ims" name="CyanogenMod/android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="github" revision="cm-13.0" />
+  <project path="frameworks/opt/net/ims" name="LineageOS/android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="github" revision="cm-13.0" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/net/wifi" name="AOSP-JF-MM/platform_frameworks_opt_net_wifi" groups="pdk" remote="github" revision="aosp-6.0" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" />
@@ -328,28 +328,28 @@
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/libhardware" name="AOSP-JF-MM/platform_hardware_libhardware" groups="pdk" remote="github" revision="aosp-6.0" />
   <project path="hardware/libhardware_legacy" name="AOSP-JF-MM/platform_hardware_libhardware_legacy" groups="pdk" remote="github" revision="aosp-6.0" />
-  <project path="hardware/qcom/audio/default" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-13.0" />
+  <project path="hardware/qcom/audio/default" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-13.0" />
   <project path="hardware/qcom/audio-caf/msm8960" name="AOSP-JF-MM/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="msm8960-6.0-test" />
-  <project path="hardware/qcom/audio-caf/msm8996" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-13.0-caf-8996" />
-  <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" remote="github" revision="cm-13.0" />
-  <project path="hardware/qcom/bt-caf" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" remote="github" revision="cm-13.0-caf" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-13.0-caf-8996" />
+  <project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" groups="qcom" remote="github" revision="cm-13.0" />
+  <project path="hardware/qcom/bt-caf" name="LineageOS/android_hardware_qcom_bt" groups="qcom" remote="github" revision="cm-13.0-caf" />
   <project path="hardware/qcom/camera" name="AOSP-JF-MM/platform_hardware_qcom_camera" groups="qcom" remote="github" revision="aosp-6.0" />
   <project path="hardware/qcom/display-caf/msm8960" name="AOSP-JF-MM/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="msm8960-6.0-test" />
-  <project path="hardware/qcom/display-caf/msm8996" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-13.0-caf-8996" />
+  <project path="hardware/qcom/display-caf/msm8996" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-13.0-caf-8996" />
   <project path="hardware/qcom/gps" name="AOSP-JF-MM/platform_hardware_qcom_gps" groups="qcom,qcom_gps" remote="github" revision="aosp-6.0" />
   <project path="hardware/qcom/keymaster" name="AOSP-JF-MM/platform_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" remote="github" revision="aosp-6.0-test" />
   <project path="hardware/qcom/media-caf/msm8960" name="AOSP-JF-MM/android_hardware_qcom_media" groups="qcom" remote="github" revision="msm8960-6.0-test" />
-  <project path="hardware/qcom/media-caf/msm8996" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-13.0-caf-8996" />
+  <project path="hardware/qcom/media-caf/msm8996" name="LineageOS/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-13.0-caf-8996" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" />
   <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="pdk,qcom_msm8x74" />
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
-  <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" remote="github" revision="cm-13.0" />
-  <project path="hardware/qcom/wlan-caf" name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" remote="github" revision="cm-13.0-caf" />
+  <project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan" remote="github" revision="cm-13.0" />
+  <project path="hardware/qcom/wlan-caf" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan" remote="github" revision="cm-13.0-caf" />
   <project path="hardware/ril" name="AOSP-JF-MM/platform_hardware_ril" groups="pdk" remote="github" revision="aosp-6.0-test" />
-  <project path="hardware/ril-caf" name="CyanogenMod/android_hardware_ril" groups="pdk" remote="github" revision="cm-13.0-caf" />
+  <project path="hardware/ril-caf" name="LineageOS/android_hardware_ril" groups="pdk" remote="github" revision="cm-13.0-caf" />
   <project path="hardware/samsung" name="AOSP-JF-MM/android_hardware_samsung" remote="github" revision="aosp-6.0-test" />
   <project path="libcore" name="AOSP-JF-MM/platform_libcore" groups="pdk" remote="github" revision="aosp-6.0-test" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
@@ -357,7 +357,7 @@
   <project path="packages/apps/AudioFX" name="AOSP-JF-MM/platform_packages_apps_AudioFX" groups="pdk-fs" remote="github" revision="aosp-6.0" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Bluetooth" name="AOSP-JF-MM/platform_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-6.0" />
-  <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" remote="github" revision="cm-13.0" />
+  <project path="packages/apps/BluetoothExt" name="LineageOS/android_packages_apps_BluetoothExt" remote="github" revision="cm-13.0" />
   <project path="packages/apps/Browser" name="AOSP-JF-MM/platform_packages_apps_Browser" groups="pdk-fs" remote="github" revision="aosp-6.0" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs" />
@@ -383,7 +383,7 @@
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
   <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
   <project path="packages/apps/Messaging" name="AOSP-JF-MM/platform_packages_apps_Messaging" groups="pdk-fs" remote="github" revision="aosp-6.0" />
-  <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" remote="github" revision="cm-13.0" />
+  <project path="packages/apps/Nfc" name="LineageOS/android_packages_apps_Nfc" remote="github" revision="cm-13.0" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
   <project path="packages/apps/OTAUpdates" name="MatthewBooth/OTAUpdates" remote="github" revision="aosp" />
   <project path="packages/apps/PackageInstaller" name="AOSP-JF-MM/platform_packages_apps_PackageInstaller" groups="pdk-fs" remote="github" revision="aosp-6.0" />
@@ -391,8 +391,8 @@
   <project path="packages/apps/PhoneCommon" name="AOSP-JF-MM/platform_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-6.0-test-caf" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
-  <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-13.0" />
-  <project path="packages/apps/Screencast" name="CyanogenMod/android_packages_apps_Screencast" remote="github" revision="cm-13.0" />
+  <project path="packages/apps/SamsungServiceMode" name="LineageOS/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-13.0" />
+  <project path="packages/apps/Screencast" name="LineageOS/android_packages_apps_Screencast" remote="github" revision="cm-13.0" />
   <project path="packages/apps/Settings" name="AOSP-JF-MM/platform_packages_apps_Settings" groups="pdk-fs" remote="github" revision="aosp-6.0" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" groups="pdk-fs" />
   <project path="packages/apps/SnapdragonCamera" name="AOSP-JF-MM/packages_apps_SnapdragonCamera" remote="github" revision="aosp-6.0-test" />
@@ -465,7 +465,7 @@
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="AOSP-JF-MM/platform_system_media" groups="pdk" remote="github" revision="aosp-6.0-test" />
   <project path="system/netd" name="AOSP-JF-MM/platform_system_netd" groups="pdk" remote="github" revision="aosp-6.0" />
-  <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" remote="github" revision="cm-13.0" />
+  <project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" remote="github" revision="cm-13.0" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/vold" name="AOSP-JF-MM/platform_system_vold" groups="pdk" remote="github" revision="aosp-6.0" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
@@ -489,7 +489,7 @@
   <project path="kernel/samsung/jf" name="AOSP-JF-MM/android_kernel_samsung_jf" remote="github" revision="aosp-6.0" />
 
   <!-- Xiaomi Mi5 Device Tree -->
-  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-13.0" />
+  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-13.0" />
   <project path="device/xiaomi/gemini" name="AOSP-JF-MM/platform_device_xiaomi_gemini" remote="github" revision="aosp-6.0" />
   <project path="kernel/xiaomi/msm8996" name="AOSP-JF-MM/platform_kernel_xiaomi_msm8996" remote="github" revision="aosp-6.0" />
 
@@ -500,13 +500,13 @@
 
   <!-- Vendor Repos -->
   <project path="vendor/aosp" name="AOSP-JF-MM/platform_vendor_aosp" remote="github" revision="aosp-6.0-test-caf" />
-  <project path="vendor/nxp-nfc/opensource/frameworks/" name="CyanogenMod/android_vendor_nxp-nfc_opensource_frameworks" remote="github" revision="cm-13.0"/>
-  <project path="vendor/nxp-nfc/opensource/libnfc-nci/" name="CyanogenMod/android_vendor_nxp-nfc_opensource_libnfc-nci" remote="github" revision="cm-13.0"/>
-  <project path="vendor/nxp-nfc/opensource/Nfc/" name="CyanogenMod/android_vendor_nxp-nfc_opensource_Nfc" remote="github" revision="cm-13.0"/>
+  <project path="vendor/nxp-nfc/opensource/frameworks/" name="LineageOS/android_vendor_nxp-nfc_opensource_frameworks" remote="github" revision="cm-13.0"/>
+  <project path="vendor/nxp-nfc/opensource/libnfc-nci/" name="LineageOS/android_vendor_nxp-nfc_opensource_libnfc-nci" remote="github" revision="cm-13.0"/>
+  <project path="vendor/nxp-nfc/opensource/Nfc/" name="LineageOS/android_vendor_nxp-nfc_opensource_Nfc" remote="github" revision="cm-13.0"/>
   <project path="vendor/samsung" name="AOSP-JF-MM/proprietary_vendor_samsung" remote="github" revision="aosp-6.0-test-new-ril" />
-  <project path="vendor/qcom/opensource/dataservices/" name="CyanogenMod/android_vendor_qcom_opensource_dataservices" remote="github" revision="cm-13.0"/>
-  <project path="vendor/qcom/opensource/dpm/" name="CyanogenMod/android_vendor_qcom_opensource_dpm" remote="github" revision="cm-13.0"/>
-  <project path="vendor/qcom/opensource/time-services/" name="CyanogenMod/android_vendor_qcom_opensource_time-services" remote="github" revision="cm-13.0"/>
+  <project path="vendor/qcom/opensource/dataservices/" name="LineageOS/android_vendor_qcom_opensource_dataservices" remote="github" revision="cm-13.0"/>
+  <project path="vendor/qcom/opensource/dpm/" name="LineageOS/android_vendor_qcom_opensource_dpm" remote="github" revision="cm-13.0"/>
+  <project path="vendor/qcom/opensource/time-services/" name="LineageOS/android_vendor_qcom_opensource_time-services" remote="github" revision="cm-13.0"/>
   <project path="vendor/xiaomi" name="AOSP-JF-MM/proprietary_vendor_xiaomi" remote="github" revision="aosp-6.0"/>
   <project path="vendor/lge" name="AOSP-JF-MM/proprietary_vendor_lge" remote="github" revision="aosp-6.0"/>
 </manifest>
