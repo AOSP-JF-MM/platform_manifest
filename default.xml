@@ -11,7 +11,7 @@
           fetch="git://codeaurora.org/quic/la/"
           review="codeaurora.org"/>
 
-  <default revision="refs/tags/android-6.0.1_r78"
+  <default revision="refs/tags/android-6.0.1_r79"
            remote="aosp"
            sync-j="4" />
 
@@ -381,7 +381,7 @@
   <project path="packages/apps/Launcher3" name="AOSP-JF-MM/platform_packages_apps_Launcher3" groups="pdk-fs" remote="github" revision="aosp-6.0-test" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
-  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
+  <project path="packages/apps/masquerade" name="AOSP-JF-MM/platform_packages_apps_masquerade" remote="github" revision="aosp-6.0" />
   <project path="packages/apps/Messaging" name="AOSP-JF-MM/platform_packages_apps_Messaging" groups="pdk-fs" remote="github" revision="aosp-6.0" />
   <project path="packages/apps/Nfc" name="LineageOS/android_packages_apps_Nfc" remote="github" revision="cm-13.0" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
