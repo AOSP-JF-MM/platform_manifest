@@ -1,4 +1,4 @@
-The Android Open Source Project - Nougat 7.1 [BETA STAGE]
+The Android Open Source Project - Nougat 7.1 [STABLE]
 ===========
 
 
