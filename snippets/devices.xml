@@ -24,6 +24,6 @@
   <project path="vendor/lge" name="AOSP-JF-MM/proprietary_vendor_lge" remote="github" revision="aosp-7.1.1"/>
   <project path="vendor/samsung" name="AOSP-JF-MM/proprietary_vendor_samsung" remote="github" revision="aosp-7.1.1" />
   <project path="vendor/xiaomi" name="AOSP-JF-MM/proprietary_vendor_xiaomi" remote="github" revision="aosp-7.1.1"/>
-  <project path="vendor/oneplus" name="TheMuppets/proprietary_vendor_xiaomi" remote="github" revision="cm-14.1"/>
+  <project path="vendor/oneplus" name="TheMuppets/proprietary_vendor_oneplus" remote="github" revision="cm-14.1"/>
 
 </manifest>
