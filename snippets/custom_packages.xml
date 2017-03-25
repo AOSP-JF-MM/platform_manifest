@@ -3,9 +3,14 @@
 
   <!-- AOSP-JDC -->
   <project path="build" name="AOSP-JF-MM/platform_build" groups="pdk,tradefed" remote="github" revision="aosp-7.1.1" >
+  <project path="build/blueprint" name="AOSP-JF-MM/platform_build_blueprint" groups="pdk,tradefed" remote="github" revision="aosp-7.1.1" />
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/kati" name="AOSP-JF-MM/platform_build_kati" groups="pdk,tradefed" remote="github" revision="aosp-7.1.1" />
+  <project path="build/soong" name="AOSP-JF-MM/platform_build_soong" groups="pdk,tradefed" remote="github" revision="aosp-7.1.1" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
   <project path="art" name="AOSP-JF-MM/platform_art" groups="pdk" remote="github" revision="aosp-7.1.1" />
   <project path="bionic" name="AOSP-JF-MM/platform_bionic" groups="pdk" remote="github" revision="aosp-7.1.1" />
   <project path="bootable/recovery" name="AOSP-JF-MM/platform_bootable_recovery" groups="pdk" remote="github" revision="aosp-7.1.1" />
