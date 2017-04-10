@@ -59,6 +59,7 @@
   <project path="packages/apps/Gallery2" name="AOSP-JF-MM/platform_packages_apps_Gallery2" groups="pdk-fs" remote="github" revision="aosp-7.1.2" />
   <project path="packages/apps/Launcher3" name="AOSP-JF-MM/platform_packages_apps_Launcher3" groups="pdk-fs" remote="github" revision="aosp-7.1.2" />
   <project path="packages/apps/interfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
+  <project path="packages/apps/Nfc" name="AOSP-JF-MM/platform_packages_apps_Nfc" remote="github" revision="aosp-7.1.2" />
   <project path="packages/apps/OTAUpdates" name="AOSP-JF-MM/platform_packages_apps_OTAUpdates" remote="github" revision="aosp-7.1.2" />
   <project path="packages/apps/PackageInstaller" name="AOSP-JF-MM/platform_packages_apps_PackageInstaller" groups="pdk-fs" remote="github" revision="aosp-7.1.2" />
   <project path="packages/apps/PhoneCommon" name="AOSP-JF-MM/platform_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-7.1.2" />
@@ -105,7 +106,6 @@
   <project path="external/protobuf-c" name="LineageOS/android_external_protobuf-c" remote="github" revision="cm-14.1" />
   <project path="external/stagefright-plugins" name="LineageOS/android_external_stagefright-plugins" remote="github" revision="cm-14.1" />
   <project path="external/wpa_supplicant_8" name="LineageOS/android_external_wpa_supplicant_8" groups="pdk" remote="github" revision="cm-14.1" />
-  <project path="packages/apps/Nfc" name="LineageOS/android_packages_apps_Nfc" remote="github" revision="cm-14.1" />
   <project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" remote="github" revision="cm-14.1" />
 
   <!-- TWRP -->
