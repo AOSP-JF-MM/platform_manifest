@@ -84,6 +84,7 @@
   <project path="system/vold" name="AOSP-JF-MM/platform_system_vold" groups="pdk" remote="github" revision="aosp-7.1.2" />
 
   <!-- LineageOS -->
+  <project path="external/ahbottomnavigation" name="LineageOS/android_external_ahbottomnavigation" remote="github" revision="cm-14.1" />
   <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" remote="github" revision="cm-14.1" />
   <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" remote="github" revision="cm-14.1" />
   <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="github" revision="cm-14.1" />
