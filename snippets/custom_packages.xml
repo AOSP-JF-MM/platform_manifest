@@ -58,6 +58,7 @@
   <project path="packages/apps/Exchange" name="AOSP-JF-MM/platform_packages_apps_Exchange" groups="pdk-fs" remote="github" revision="aosp-7.1.2" />
   <project path="packages/apps/HTMLViewer" name="AOSP-JF-MM/platform_packages_apps_HTMLViewer" groups="pdk-fs" remote="github" revision="aosp-7.1.2" />
   <project path="packages/apps/Gallery2" name="AOSP-JF-MM/platform_packages_apps_Gallery2" groups="pdk-fs" remote="github" revision="aosp-7.1.2" />
+  <project path="packages/apps/KeyChain" name="AOSP-JF-MM/platform_packages_apps_KeyChain" groups="pdk-fs" remote="github" revision="aosp-7.1.2" />
   <project path="packages/apps/Launcher3" name="AOSP-JF-MM/platform_packages_apps_Launcher3" groups="pdk-fs" remote="github" revision="aosp-7.1.2" />
   <project path="packages/apps/interfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
   <project path="packages/apps/Nfc" name="AOSP-JF-MM/platform_packages_apps_Nfc" remote="github" revision="aosp-7.1.2" />
@@ -81,6 +82,7 @@
   <project path="system/keymaster" name="AOSP-JF-MM/platform_system_keymaster" groups="pdk" remote="github" revision="aosp-7.1.2" />
   <project path="system/media" name="AOSP-JF-MM/platform_system_media" groups="pdk" remote="github" revision="aosp-7.1.2" />
   <project path="system/netd" name="AOSP-JF-MM/platform_system_netd" groups="pdk" remote="github" revision="aosp-7.1.2" />
+  <project path="system/security" name="AOSP-JF-MM/platform_system_security" groups="pdk" remote="github" revision="aosp-7.1.2" />
   <project path="system/sepolicy" name="AOSP-JF-MM/platform_system_sepolicy" groups="pdk" remote="github" revision="aosp-7.1.2" />
   <project path="system/vold" name="AOSP-JF-MM/platform_system_vold" groups="pdk" remote="github" revision="aosp-7.1.2" />
 
