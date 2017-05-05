@@ -1,7 +1,5 @@
-The Android Open Source Project - Nougat 7.1.2 [WIP]
+The Android Open Source Project - Nougat 7.1.2 [STABLE]
 ===========
-
-!!MAY EAT YOUR CAT, DO NOT USE THIS MANIFEST!!
 
 Getting Started
 ---------------
