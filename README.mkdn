@@ -28,4 +28,4 @@ Select device
 
 Compile the rom
 
-    mka bacon
+    mka jdc
