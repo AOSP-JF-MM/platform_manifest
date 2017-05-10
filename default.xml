@@ -4,8 +4,11 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
 
+  <remote name="ghssh"
+          fetch="ssh://github.com/" />
+
   <remote name="github"
-           fetch="https://github.com/" />
+          fetch="https://github.com/" />
 
   <default revision="refs/tags/android-7.1.2_r8"
            remote="aosp"
