@@ -27,7 +27,7 @@
   <include name="snippets/hals.xml" />
 
   <!-- JDCTeam devices -->
-  <include name="snippets/devices.xml" />
+  <!-- <include name="snippets/devices.xml" /> -->
 
   <!-- Linux packages -->
   <include name="snippets/linux.xml" />
