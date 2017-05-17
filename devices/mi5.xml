@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="github"
+          fetch="https://github.com/" />
+
+  <remote name="ghssh"
+          fetch="ssh://git@github.com" />
+
+
+  <project path="device/xiaomi/gemini" name="AOSP-JF-MM/platform_device_xiaomi_gemini" remote="github" revision="aosp-7.1.2" />
+  <project path="kernel/xiaomi/msm8996" name="AOSP-JF-MM/platform_kernel_xiaomi_msm8996" remote="github" revision="aosp-7.1.2" />
+  <project path="vendor/xiaomi" name="AOSP-JF-MM/proprietary_vendor_xiaomi" remote="github" revision="aosp-7.1.2"/>
+
+</manifest>
+

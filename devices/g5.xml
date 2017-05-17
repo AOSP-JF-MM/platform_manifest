@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="github"
+          fetch="https://github.com/" />
+
+  <remote name="ghssh"
+          fetch="ssh://git@github.com" />
+
+  <!-- LG G5 -->
+  <project path="vendor/lge" name="AOSP-JF-MM/proprietary_vendor_lge" remote="github" revision="aosp-7.1.2"/>
+  <project path="device/lge/g5-common" name="AOSP-JF-MM/platform_device_lge_g5-common" remote="github" revision="aosp-7.1.2" />
+  <project path="device/lge/h850" name="AOSP-JF-MM/platform_device_lge_h850" remote="github" revision="aosp-7.1.2" />
+  <project path="device/lge/msm8996-common" name="AOSP-JF-MM/android_device_lge_msm8996-common" remote="github" revision="aosp-7.1.2" />
+  <project path="kernel/lge/msm8996" name="AOSP-JF-MM/platform_kernel_lge_msm8996" remote="github" revision="aosp-7.1.2" />
+
+</manifest>
