@@ -26,6 +26,7 @@
   <project path="external/jemalloc" name="AOSP-JF-MM/platform_external_jemalloc" groups="pdk" remote="github" revision="aosp-7.1.2" />
   <project path="external/libchrome" name="AOSP-JF-MM/platform_external_libchrome" remote="github" revision="aosp-7.1.2" />
   <project path="external/libselinux" name="AOSP-JF-MM/platform_external_libselinux" groups="pdk" remote="github" revision="aosp-7.1.2" />
+  <project path="external/libunwind_llvm" name="AOSP-JF-MM/platform_external_libunwind_llvm" remote="github" revision="aosp-7.1.2" />
   <project path="external/lz4" name="AOSP-JF-MM/platform_external_lz4" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-7.1.2" />
   <project path="external/lzma" name="AOSP-JF-MM/platform_external_lzma" groups="pdk" remote="github" revision="aosp-7.1.2" />
   <project path="external/okhttp" name="AOSP-JF-MM/platform_external_okhttp" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-7.1.2" />
@@ -34,6 +35,7 @@
   <project path="external/tinyalsa" name="AOSP-JF-MM/platform_external_tinyalsa" groups="pdk" remote="github" revision="aosp-7.1.2" />
   <project path="external/tinycompress" name="AOSP-JF-MM/platform_external_tinycompress" groups="pdk" remote="github" revision="aosp-7.1.2" />
   <project path="external/tinyxml2" name="AOSP-JF-MM/platform_external_tinyxml2" groups="pdk" remote="github" revision="aosp-7.1.2" />
+  <project path="external/vulkan-validation-layers" name="AOSP-JF-MM/platform_external_vulkan-validation-layers" remote="github" revision="aosp-7.1.2" />
   <project path="external/yaffs2" name="AOSP-JF-MM/platform_external_yaffs2" groups="pdk" remote="github" revision="aosp-7.1.2" />
   <project path="external/zlib" name="AOSP-JF-MM/platform_external_zlib" groups="pdk" remote="github" revision="aosp-7.1.2" />
   <project path="frameworks/av" name="AOSP-JF-MM/platform_frameworks_av" groups="pdk" remote="github" revision="aosp-7.1.2" />
