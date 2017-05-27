@@ -15,7 +15,7 @@
   <project path="bionic" name="AOSP-JF-MM/platform_bionic" groups="pdk" remote="github" revision="aosp-7.1.2" />
   <project path="bootable/recovery" name="AOSP-JF-MM/platform_bootable_recovery" groups="pdk" remote="github" revision="aosp-7.1.2" />
   <project path="device/qcom/sepolicy" name="AOSP-JF-MM/platform_device_qcom_sepolicy" remote="github" revision="aosp-7.1.2" />
-  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
+  <project path="device/qcom/common" name="AOSP-JF-MM/android_device_qcom_common" remote="github" revision="aosp-7.1.2" />
   <project path="external/android-clat" name="AOSP-JF-MM/platform_external_android-clat" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-7.1.2" />
   <project path="external/boringssl" name="AOSP-JF-MM/platform_external_boringssl" groups="pdk" remote="github" revision="aosp-7.1.2" />
   <project path="external/bzip2" name="AOSP-JF-MM/platform_external_bzip2" groups="pdk" remote="github" revision="aosp-7.1.2" />
