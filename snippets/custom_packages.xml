@@ -61,6 +61,7 @@
   <project path="packages/apps/Exchange" name="AOSP-JF-MM/platform_packages_apps_Exchange" groups="pdk-fs" remote="github" revision="aosp-7.1.2" />
   <project path="packages/apps/HTMLViewer" name="AOSP-JF-MM/platform_packages_apps_HTMLViewer" groups="pdk-fs" remote="github" revision="aosp-7.1.2" />
   <project path="packages/apps/Gallery2" name="AOSP-JF-MM/platform_packages_apps_Gallery2" groups="pdk-fs" remote="github" revision="aosp-7.1.2" />
+  <project path="packages/apps/Jelly" name="AOSP-JF-MM/platform_packages_apps_Jelly" remote="github" revision="aosp-7.1.2" />
   <project path="packages/apps/KeyChain" name="AOSP-JF-MM/platform_packages_apps_KeyChain" groups="pdk-fs" remote="github" revision="aosp-7.1.2" />
   <project path="packages/apps/Launcher3" name="AOSP-JF-MM/platform_packages_apps_Launcher3" groups="pdk-fs" remote="github" revision="aosp-7.1.2" />
   <project path="packages/apps/interfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
