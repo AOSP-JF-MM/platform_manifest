@@ -39,6 +39,7 @@
   <project path="external/tinycompress" name="AOSP-JF-MM/platform_external_tinycompress" groups="pdk" remote="github" revision="aosp-7.1.2" />
   <project path="external/tinyxml2" name="AOSP-JF-MM/platform_external_tinyxml2" groups="pdk" remote="github" revision="aosp-7.1.2" />
   <project path="external/vulkan-validation-layers" name="AOSP-JF-MM/platform_external_vulkan-validation-layers" remote="github" revision="aosp-7.1.2" />
+  <project path="external/wpa_supplicant_8" name="AOSP-JF-MM/platform_external_wpa_supplicant_8" groups="pdk" remote="github" revision="aosp-7.1.2" />
   <project path="external/yaffs2" name="AOSP-JF-MM/platform_external_yaffs2" groups="pdk" remote="github" revision="aosp-7.1.2" />
   <project path="external/zlib" name="AOSP-JF-MM/platform_external_zlib" groups="pdk" remote="github" revision="aosp-7.1.2" />
   <project path="frameworks/av" name="AOSP-JF-MM/platform_frameworks_av" groups="pdk" remote="github" revision="aosp-7.1.2" />
@@ -115,7 +116,6 @@
   <project path="external/powertop" name="LineageOS/android_external_powertop" remote="github" revision="cm-14.1" />
   <project path="external/protobuf-c" name="LineageOS/android_external_protobuf-c" remote="github" revision="cm-14.1" />
   <project path="external/stagefright-plugins" name="LineageOS/android_external_stagefright-plugins" remote="github" revision="cm-14.1" />
-  <project path="external/wpa_supplicant_8" name="LineageOS/android_external_wpa_supplicant_8" groups="pdk" remote="github" revision="cm-14.1" />
   <project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" remote="github" revision="cm-14.1" />
   <project path="hardware/qcom/fm" name="LineageOS/android_hardware_qcom_fm" groups="qcom,qcom_fm" remote="github" revision="cm-14.1" />
   <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" groups="pdk" remote="github" revision="cm-14.1" />
