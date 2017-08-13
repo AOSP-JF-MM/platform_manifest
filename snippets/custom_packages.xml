@@ -49,6 +49,7 @@
   <project path="frameworks/opt/net/ims" name="AOSP-JF-MM/platform_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="github" revision="aosp-7.1.2" />
   <project path="frameworks/opt/net/wifi" name="AOSP-JF-MM/platform_frameworks_opt_net_wifi" groups="pdk" remote="github" revision="aosp-7.1.2" />
   <project path="frameworks/opt/telephony" name="AOSP-JF-MM/platform_frameworks_opt_telephony" groups="pdk" remote="github" revision="aosp-7.1.2" />
+  <project path="frameworks/rs" name="AOSP-JF-MM/platform_frameworks_rs" groups="pdk" remote="github" revision="aosp-7.1.2" />
   <project path="frameworks/support" name="AOSP-JF-MM/platform_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-7.1.2" />
   <project path="libcore" name="AOSP-JF-MM/platform_libcore" groups="pdk"  remote="github" revision="aosp-7.1.2" />
   <project path="packages/apps/MusicFX" name="AOSP-JF-MM/platform_packages_apps_MusicFX" groups="pdk-fs" remote="github" revision="aosp-7.1.2" />
