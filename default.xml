@@ -563,6 +563,7 @@
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
   <!-- Jflte -->
+  <project name="AOSP-JF-MM/platform_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="github" revision="aosp-8.0-test" />
   <project name="AOSP-JF-MM/platform_device_samsung_jflte" path="device/samsung/jflte" remote="github" revision="aosp-8.0-test" />
   <project name="AOSP-JF-MM/platform_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="aosp-8.0-test" />
   <project name="AOSP-JF-MM/platform_kernel_samsung_jf" path="kernel/samsung/jf" remote="github" revision="aosp-8.0-test" />
