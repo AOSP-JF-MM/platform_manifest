@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="github"
-          fetch="https://github.com/" />
-
   <remote  name="aosp"
-           fetch=".."
-           review="https://android-review.googlesource.com/" />
+           fetch="https://android-review.googlesource.com/" />
+
+  <remote name="github"
+           fetch="https://github.com/" />
+
   <default revision="refs/tags/android-8.0.0_r3"
            remote="aosp"
            sync-j="4" />
@@ -612,7 +612,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="AOSP-JF-MM/platform_soong" groups="pdk,tradefed" remote="github" revision="aosp-8.0-test" >
+  <project path="build/soong" name="AOSP-JF-MM/platform_build_soong" groups="pdk,tradefed" remote="github" revision="aosp-8.0-test" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
