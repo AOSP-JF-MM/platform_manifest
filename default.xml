@@ -278,7 +278,6 @@
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
   <project path="external/seccomp-tests" name="platform/external/seccomp-tests" groups="pdk" />
-  <project path="external/selinux" name="platform/external/selinux" groups="pdk" />
   <project path="external/shflags" name="platform/external/shflags" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" />
   <project path="external/sl4a" name="platform/external/sl4a" groups="pdk" />
@@ -575,6 +574,7 @@
 
   <!-- Custom Packages -->
   <project path="bionic" name="AOSP-JF-MM/platform_bionic" groups="pdk" remote="github" revision="aosp-8.0-test" />
+  <project path="external/selinux" name="AOSP-JF-MM/platform_external_selinux" groups="pdk" remote="github" revision="aosp-8.0-test" />
   <project path="external/skia" name="AOSP-JF-MM/platform_external_skia" groups="pdk,qcom_msm8x26" remote="github" revision="aosp-8.0-test" />
   <project path="frameworks/av" name="AOSP-JF-MM/platform_frameworks_av" groups="pdk" remote="github" revision="aosp-8.0-test" />
   <project path="frameworks/base" name="AOSP-JF-MM/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-8.0-test" />
