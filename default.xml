@@ -576,7 +576,6 @@
   <project path="external/connectivity" name="AOSP-JF-MM/platform_external_connectivity" remote="github" revision="aosp-8.0-test" />
   <project path="external/selinux" name="AOSP-JF-MM/platform_external_selinux" groups="pdk" remote="github" revision="aosp-8.0-test" />
   <project path="external/skia" name="AOSP-JF-MM/platform_external_skia" groups="pdk,qcom_msm8x26" remote="github" revision="aosp-8.0-test" />
-  <project path="external/stlport" name="AOSP-JF-MM/platform_external_stlport" remote="github" revision="aosp-8.0-test" />
   <project path="external/tinycompress" name="AOSP-JF-MM/platform_external_tinycompress" groups="pdk" remote="github" revision="aosp-8.0-test" />
   <project path="frameworks/av" name="AOSP-JF-MM/platform_frameworks_av" groups="pdk" remote="github" revision="aosp-8.0-test" />
   <project path="frameworks/base" name="AOSP-JF-MM/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-8.0-test" />
