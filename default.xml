@@ -573,6 +573,7 @@
 
   <!-- Custom Packages -->
   <project path="bionic" name="AOSP-JF-MM/platform_bionic" groups="pdk" remote="github" revision="aosp-8.0-test" />
+  <project path="device/jdc/sepolicy" name="AOSP-JF-MM/platform_device_jdc_sepolicy" remote="github" revision="aosp-8.0-test" />
   <project path="external/connectivity" name="AOSP-JF-MM/platform_external_connectivity" remote="github" revision="aosp-8.0-test" />
   <project path="external/selinux" name="AOSP-JF-MM/platform_external_selinux" groups="pdk" remote="github" revision="aosp-8.0-test" />
   <project path="external/skia" name="AOSP-JF-MM/platform_external_skia" groups="pdk,qcom_msm8x26" remote="github" revision="aosp-8.0-test" />
