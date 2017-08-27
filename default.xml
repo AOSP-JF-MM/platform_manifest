@@ -18,7 +18,6 @@
   <!-- <include name="snippets/darwin.xml" /> -->
 
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
-  <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" />
   <project path="art" name="platform/art" groups="pdk" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
@@ -452,7 +451,6 @@
   <project path="packages/providers/CallLogProvider" name="platform/packages/providers/CallLogProvider" groups="pdk-fs" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" groups="pdk-fs" />
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" groups="pdk-fs" />
@@ -522,12 +520,10 @@
   <project path="system/nfc" name="platform/system/nfc" groups="pdk" />
   <project path="system/nvram" name="platform/system/nvram" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" />
   <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk" />
   <project path="system/tools/hidl" name="platform/system/tools/hidl" groups="pdk" />
   <project path="system/tpm" name="platform/system/tpm" />
   <project path="system/update_engine" name="platform/system/update_engine" groups="pdk" />
-  <project path="system/vold" name="platform/system/vold" groups="pdk" />
   <project path="test/vts" name="platform/test/vts" groups="vts,pdk" />
   <project path="test/vts-testcase/fuzz" name="platform/test/vts-testcase/fuzz" groups="vts,pdk" />
   <project path="test/vts-testcase/hal" name="platform/test/vts-testcase/hal" groups="vts,pdk" />
@@ -572,6 +568,7 @@
 
   <!-- Custom Packages -->
   <project path="bionic" name="AOSP-JF-MM/platform_bionic" groups="pdk" remote="github" revision="aosp-8.0-test" />
+  <project path="build/kati" name="AOSP-JF-MM/platform_build_kati" groups="pdk,tradefed" remote="github" revision="aosp-8.0-test" />
   <project path="device/jdc/sepolicy" name="AOSP-JF-MM/platform_device_jdc_sepolicy" remote="github" revision="aosp-8.0-test" />
   <project path="external/connectivity" name="AOSP-JF-MM/platform_external_connectivity" remote="github" revision="aosp-8.0-test" />
   <project path="external/selinux" name="AOSP-JF-MM/platform_external_selinux" groups="pdk" remote="github" revision="aosp-8.0-test" />
@@ -581,8 +578,11 @@
   <project path="frameworks/base" name="AOSP-JF-MM/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-8.0-test" />
   <project path="frameworks/native" name="AOSP-JF-MM/platform_frameworks_native" groups="pdk" remote="github" revision="aosp-8.0-test" />
   <project path="frameworks/opt/telephony" name="AOSP-JF-MM/platform_frameworks_opt_telephony" groups="pdk" remote="github" revision="aosp-8.0-test" />
+  <project path="packages/providers/MediaProvider" name="AOSP-JF-MM/platform_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-8.0-test" />
   <project path="system/core" name="AOSP-JF-MM/platform_system_core" groups="pdk" remote="github" revision="aosp-8.0-test" />
   <project path="system/media" name="AOSP-JF-MM/platform_system_media" groups="pdk" remote="github" revision="aosp-8.0-test" />
+  <project path="system/sepolicy" name="AOSP-JF-MM/platform_system_sepolicy" groups="pdk" remote="github" revision="aosp-8.0-test" />
+  <project path="system/vold" name="AOSP-JF-MM/platform_system_vold" groups="pdk" remote="github" revision="aosp-8.0-test" />
   <project path="hardware/broadcom/libbt" name="AOSP-JF-MM/platform_hardware_broadcom_libbt" groups="pdk" remote="github" revision="aosp-8.0-test" />
   <project path="hardware/libhardware" name="AOSP-JF-MM/platform_hardware_libhardware" groups="pdk" remote="github" revision="aosp-8.0-test" />
   <project path="packages/apps/CarrierConfig" name="AOSP-JF-MM/platform_packages_apps_CarrierConfig" groups="pdk-fs" remote="github" revision="aosp-8.0-test" />
