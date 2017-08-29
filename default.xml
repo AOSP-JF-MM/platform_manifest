@@ -14,6 +14,9 @@
   <!-- Linux packages -->
   <include name="snippets/linux.xml" />
 
+  <!-- Devices HALs -->
+  <include name="snippets/hals.xml" />
+
   <!-- Darwin packages (uncomment the line below if building on OS X) -->
   <!-- <include name="snippets/darwin.xml" /> -->
 
@@ -559,12 +562,6 @@
   <project name="AOSP-JF-MM/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="aosp-8.0-test" />
   <project name="AOSP-JF-MM/platform_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="aosp-8.0-test" />
   <project name="AOSP-JF-MM/platform_hardware_samsung" path="hardware/samsung" remote="github" revision="aosp-8.0-test" />
-
-  <!-- HALs -->
-  <project path="hardware/qcom/audio-caf/msm8960" name="AOSP-JF-MM/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="msm8960-8.0-test" />
-  <project path="hardware/qcom/display-caf/msm8960" name="AOSP-JF-MM/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="msm8960-8.0-test" />
-  <project path="hardware/qcom/media-caf/msm8960" name="AOSP-JF-MM/android_hardware_qcom_media" groups="qcom" remote="github" revision="msm8960-8.0-test" />
-  <project path="hardware/qcom/keymaster" name="AOSP-JF-MM/platform_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" remote="github" revision="aosp-8.0-test" />
 
   <!-- Custom Packages -->
   <project path="bionic" name="AOSP-JF-MM/platform_bionic" groups="pdk" remote="github" revision="aosp-8.0-test" />
