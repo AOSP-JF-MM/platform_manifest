@@ -415,7 +415,6 @@
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" groups="pdk-fs" />
-  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
   <project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" groups="pdk-fs" />
@@ -430,7 +429,6 @@
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" />
   <project path="packages/apps/RetailDemo" name="platform/packages/apps/RetailDemo" groups="pdk-fs" />
   <project path="packages/apps/SafetyRegulatoryInfo" name="platform/packages/apps/SafetyRegulatoryInfo" groups="pdk-fs" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" groups="pdk-fs" />
@@ -444,7 +442,6 @@
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" groups="pdk-fs" />
   <project path="packages/apps/WallpaperPicker" name="platform/packages/apps/WallpaperPicker" groups="pdk-fs" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" groups="pdk-fs" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" groups="pdk-fs" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" groups="pdk-fs" />
   <project path="packages/providers/BlockedNumberProvider" name="platform/packages/providers/BlockedNumberProvider" groups="pdk-fs" />
@@ -508,7 +505,6 @@
   <project path="system/connectivity/wificond" name="platform/system/connectivity/wificond" groups="pdk" />
   <project path="system/connectivity/wifilogd" name="platform/system/connectivity/wifilogd" groups="pdk" />
   <project path="system/chre" name="platform/system/chre" groups="pdk" />
-  <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/hardware/interfaces" name="platform/system/hardware/interfaces" groups="pdk" />
   <project path="system/hwservicemanager" name="platform/system/hwservicemanager" groups="pdk" />
@@ -573,16 +569,20 @@
   <project path="frameworks/base" name="AOSP-JF-MM/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-8.0-test" />
   <project path="frameworks/native" name="AOSP-JF-MM/platform_frameworks_native" groups="pdk" remote="github" revision="aosp-8.0-test" />
   <project path="frameworks/opt/telephony" name="AOSP-JF-MM/platform_frameworks_opt_telephony" groups="pdk" remote="github" revision="aosp-8.0-test" />
-  <project path="packages/providers/MediaProvider" name="AOSP-JF-MM/platform_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-8.0-test" />
   <project path="system/core" name="AOSP-JF-MM/platform_system_core" groups="pdk" remote="github" revision="aosp-8.0-test" />
-  <project path="system/nfc" name="AOSP-JF-MM/platform_system_nfc" groups="pdk" remote="github" revision="aosp-8.0-test" />
+  <project path="system/extras" name="AOSP-JF-MM/platform_system_extras" groups="pdk" remote="github" revision="aosp-8.0-test" />
   <project path="system/media" name="AOSP-JF-MM/platform_system_media" groups="pdk" remote="github" revision="aosp-8.0-test" />
+  <project path="system/nfc" name="AOSP-JF-MM/platform_system_nfc" groups="pdk" remote="github" revision="aosp-8.0-test" />
   <project path="system/sepolicy" name="AOSP-JF-MM/platform_system_sepolicy" groups="pdk" remote="github" revision="aosp-8.0-test" />
   <project path="system/vold" name="AOSP-JF-MM/platform_system_vold" groups="pdk" remote="github" revision="aosp-8.0-test" />
   <project path="hardware/broadcom/libbt" name="AOSP-JF-MM/platform_hardware_broadcom_libbt" groups="pdk" remote="github" revision="aosp-8.0-test" />
   <project path="hardware/libhardware" name="AOSP-JF-MM/platform_hardware_libhardware" groups="pdk" remote="github" revision="aosp-8.0-test" />
   <project path="packages/apps/CarrierConfig" name="AOSP-JF-MM/platform_packages_apps_CarrierConfig" groups="pdk-fs" remote="github" revision="aosp-8.0-test" />
+  <project path="packages/apps/Launcher3" name="AOSP-JF-MM/platform_packages_apps_Launcher3" groups="pdk-fs" remote="github" revision="aosp-8.0-test" />
   <project path="packages/apps/Nfc" name="AOSP-JF-MM/platform_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="github" revision="aosp-8.0-test" />
+  <project path="packages/apps/Settings" name="AOSP-JF-MM/platform_packages_apps_Settings" groups="pdk-fs" remote="github" revision="aosp-8.0-test" />
+  <project path="packages/inputmethods/LatinIME" name="AOSP-JF-MM/platform_packages_inputmethods_LatinIME" groups="pdk-fs" remote="github" revision="aosp-8.0-test" />
+  <project path="packages/providers/MediaProvider" name="AOSP-JF-MM/platform_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-8.0-test" />
 
   <!-- Vendor repos -->
   <project path="vendor/aosp" name="AOSP-JF-MM/platform_vendor_aosp" remote="github" revision="aosp-8.0-test" />
