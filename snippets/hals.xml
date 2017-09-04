@@ -46,6 +46,9 @@
   <project path="hardware/samsung" name="AOSP-JF-MM/platform_hardware_samsung" remote="github" revision="aosp-8.0-test" />
 
   <!-- QCOM HALs -->
+  <project path="hardware/qcom/audio-caf/msm8996" name="AOSP-JF-MM/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="msm8996-8.0-test" />
+  <project path="hardware/qcom/display-caf/msm8996" name="AOSP-JF-MM/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="msm8996-8.0-test" />
+  <project path="hardware/qcom/media-caf/msm8996" name="AOSP-JF-MM/android_hardware_qcom_media" groups="qcom" remote="github" revision="msm8996-8.0-test" />
   <project path="hardware/qcom/audio-caf/msm8960" name="AOSP-JF-MM/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="msm8960-8.0-test" />
   <project path="hardware/qcom/display-caf/msm8960" name="AOSP-JF-MM/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="msm8960-8.0-test" />
   <project path="hardware/qcom/media-caf/msm8960" name="AOSP-JF-MM/android_hardware_qcom_media" groups="qcom" remote="github" revision="msm8960-8.0-test" />
