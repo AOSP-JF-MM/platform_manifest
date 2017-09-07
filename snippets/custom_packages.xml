@@ -32,6 +32,7 @@
   <project path="system/extras" name="AOSP-JF-MM/platform_system_extras" groups="pdk" remote="github" revision="aosp-8.0-test" />
   <project path="system/media" name="AOSP-JF-MM/platform_system_media" groups="pdk" remote="github" revision="aosp-8.0-test" />
   <project path="system/nfc" name="AOSP-JF-MM/platform_system_nfc" groups="pdk" remote="github" revision="aosp-8.0-test" />
+  <project path="system/qcom" name="AOSP-JF-MM/platform_system_qcom" remote="github" revision="aosp-8.0-test" />
   <project path="system/sepolicy" name="AOSP-JF-MM/platform_system_sepolicy" groups="pdk" remote="github" revision="aosp-8.0-test" />
   <project path="system/vold" name="AOSP-JF-MM/platform_system_vold" groups="pdk" remote="github" revision="aosp-8.0-test" />
   <project path="packages/apps/CarrierConfig" name="AOSP-JF-MM/platform_packages_apps_CarrierConfig" groups="pdk-fs" remote="github" revision="aosp-8.0-test" />
@@ -41,7 +42,6 @@
   <project path="packages/apps/Nfc" name="AOSP-JF-MM/platform_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="github" revision="aosp-8.0-test" />
   <project path="packages/apps/OTAUpdates" name="AOSP-JF-MM/platform_packages_apps_OTAUpdates" remote="github" revision="aosp-8.0-test" />
   <project path="packages/apps/Settings" name="AOSP-JF-MM/platform_packages_apps_Settings" groups="pdk-fs" remote="github" revision="aosp-8.0-test" />
-  <project path="packages/resources/devicesettings" name="AOSP-JF-MM/platform_packages_resources_devicesettings" remote="github" revision="aosp-8.0-test" />
   <project path="packages/inputmethods/LatinIME" name="AOSP-JF-MM/platform_packages_inputmethods_LatinIME" groups="pdk-fs" remote="github" revision="aosp-8.0-test" />
   <project path="packages/providers/MediaProvider" name="AOSP-JF-MM/platform_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-8.0-test" />
 
