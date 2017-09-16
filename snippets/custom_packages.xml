@@ -49,6 +49,7 @@
 
   <!-- Vendor repos -->
   <project path="vendor/aosp" name="AOSP-JF-MM/platform_vendor_aosp" remote="github" revision="aosp-8.0-test" />
-  <project path="vendor/qcom/opensource/cryptfs_hw" name="AOSP-JF-MM/platform_vendor_qcom_opensource_cryptfs_hw" remote="github" revision="aosp-8.0-test" />
+  <project path="vendor/qcom-opensource/cryptfs_hw" name="AOSP-JF-MM/platform_vendor_qcom_opensource_cryptfs_hw" remote="github" revision="aosp-8.0-test" />
+  <project path="vendor/qcom-opensource/interfaces" name="AOSP-JF-MM/platform_vendor_qcom_opensource_interfaces" remote="github" revision="aosp-8.0-test" />
 
 </manifest>
