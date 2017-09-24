@@ -22,7 +22,6 @@
 <!--   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt,pdk" /> -->
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk" />
   <project path="hardware/qcom/data/ipacfg-mgr" name="platform/hardware/qcom/data/ipacfg-mgr" groups="qcom,pdk" />
-  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps,pdk" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960,pdk" />
   <project path="hardware/qcom/msm8994" name="platform/hardware/qcom/msm8994" groups="qcom_msm8994,pdk" />
   <project path="hardware/qcom/msm8996" name="platform/hardware/qcom/msm8996" groups="qcom_msm8996" />
@@ -34,11 +33,13 @@
   <!-- Custom HALs -->
   <project path="hardware/broadcom/libbt" name="AOSP-JF-MM/platform_hardware_broadcom_libbt" groups="pdk" remote="github" revision="aosp-8.0-test" />
   <project path="hardware/interfaces" name="AOSP-JF-MM/platform_hardware_interfaces" groups="pdk" remote="github" revision="aosp-8.0-test" />
+  <project path="hardware/jdc-interfaces" name="AOSP-JF-MM/platform_hardware_jdc-interfaces" groups="pdk" remote="github" revision="aosp-8.0-test" />
   <project path="hardware/libhardware" name="AOSP-JF-MM/platform_hardware_libhardware" groups="pdk" remote="github" revision="aosp-8.0-test" />
   <project path="hardware/libhardware_legacy" name="AOSP-JF-MM/platform_hardware_libhardware_legacy" groups="pdk" remote="github" revision="aosp-8.0-test" />
   <project path="hardware/qcom/audio" name="AOSP-JF-MM/platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="aosp-8.0-test" />
   <project path="hardware/qcom/display" name="AOSP-JF-MM/platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="aosp-8.0-test" />
   <project path="hardware/qcom/bt" name="AOSP-JF-MM/platform_hardware_qcom_bt" groups="qcom,pdk" remote="github" revision="aosp-8.0-test" />
+  <project path="hardware/qcom/gps" name="AOSP-JF-MM/platform_hardware_qcom_gps" groups="qcom,qcom_gps,pdk" remote="github" revision="aosp-8.0-test" />
   <project path="hardware/qcom/media" name="AOSP-JF-MM/platform_hardware_qcom_media" groups="qcom" remote="github" revision="aosp-8.0-test" />
   <project path="hardware/qcom/keymaster" name="AOSP-JF-MM/platform_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" remote="github" revision="aosp-8.0-test" />
   <project path="hardware/qcom/wlan" name="AOSP-JF-MM/platform_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="github" revision="aosp-8.0-test" />
