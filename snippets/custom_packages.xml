@@ -26,10 +26,13 @@
   <project path="external/iproute2" name="AOSP-JF-MM/platform_external_iproute2" groups="pdk" remote="github" revision="aosp-7.1.2"/>
   <project path="external/ipsec-tools" name="AOSP-JF-MM/platform_external_ipsec-tools" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-7.1.2" />
   <project path="external/jemalloc" name="AOSP-JF-MM/platform_external_jemalloc" groups="pdk" remote="github" revision="aosp-7.1.2" />
+  <project path="external/libavc" name="AOSP-JF-MM/platform_external_libavc" groups="pdk" remote="github" revision="aosp-7.1.2" />
   <project path="external/libchrome" name="AOSP-JF-MM/platform_external_libchrome" remote="github" revision="aosp-7.1.2" />
+  <project path="external/libhevc" name="AOSP-JF-MM/platform_external_libhevc" groups="pdk-fs" remote="github" revision="aosp-7.1.2" />
   <project path="external/libjpeg-turbo" name="AOSP-JF-MM/platform_external_libjpeg-turbo" groups="pdk" remote="github" revision="aosp-7.1.2" />
   <project path="external/libselinux" name="AOSP-JF-MM/platform_external_libselinux" groups="pdk" remote="github" revision="aosp-7.1.2" />
   <project path="external/libunwind_llvm" name="AOSP-JF-MM/platform_external_libunwind_llvm" remote="github" revision="aosp-7.1.2" />
+  <project path="external/libvpx" name="AOSP-JF-MM/platform_external_libvpx" groups="pdk" remote="github" revision="aosp-7.1.2" />
   <project path="external/lz4" name="AOSP-JF-MM/platform_external_lz4" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-7.1.2" />
   <project path="external/lzma" name="AOSP-JF-MM/platform_external_lzma" groups="pdk" remote="github" revision="aosp-7.1.2" />
   <project path="external/okhttp" name="AOSP-JF-MM/platform_external_okhttp" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-7.1.2" />
@@ -40,12 +43,14 @@
   <project path="external/tinyalsa" name="AOSP-JF-MM/platform_external_tinyalsa" groups="pdk" remote="github" revision="aosp-7.1.2" />
   <project path="external/tinycompress" name="AOSP-JF-MM/platform_external_tinycompress" groups="pdk" remote="github" revision="aosp-7.1.2" />
   <project path="external/tinyxml2" name="AOSP-JF-MM/platform_external_tinyxml2" groups="pdk" remote="github" revision="aosp-7.1.2" />
+  <project path="external/tremolo" name="AOSP-JF-MM/platform_external_tremolo" groups="pdk" remote="github" revision="aosp-7.1.2" />
   <project path="external/vulkan-validation-layers" name="AOSP-JF-MM/platform_external_vulkan-validation-layers" remote="github" revision="aosp-7.1.2" />
   <project path="external/wpa_supplicant_8" name="AOSP-JF-MM/platform_external_wpa_supplicant_8" groups="pdk" remote="github" revision="aosp-7.1.2" />
   <project path="external/yaffs2" name="AOSP-JF-MM/platform_external_yaffs2" groups="pdk" remote="github" revision="aosp-7.1.2" />
   <project path="external/zlib" name="AOSP-JF-MM/platform_external_zlib" groups="pdk" remote="github" revision="aosp-7.1.2" />
   <project path="frameworks/av" name="AOSP-JF-MM/platform_frameworks_av" groups="pdk" remote="github" revision="aosp-7.1.2" />
   <project path="frameworks/base" name="AOSP-JF-MM/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-7.1.2" />
+  <project path="frameworks/minikin" name="AOSP-JF-MM/platform_frameworks_minikin" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-7.1.2" />
   <project path="frameworks/native" name="AOSP-JF-MM/platform_frameworks_native" groups="pdk" remote="github" revision="aosp-7.1.2" />
   <project path="frameworks/opt/hardware" name="AOSP-JF-MM/platform_frameworks_opt_hardware" groups="pdk" remote="github" revision="aosp-7.1.2" />
   <project path="frameworks/opt/net/ims" name="AOSP-JF-MM/platform_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="github" revision="aosp-7.1.2" />
@@ -71,6 +76,7 @@
   <project path="packages/apps/KeyChain" name="AOSP-JF-MM/platform_packages_apps_KeyChain" groups="pdk-fs" remote="github" revision="aosp-7.1.2" />
   <project path="packages/apps/Launcher3" name="AOSP-JF-MM/platform_packages_apps_Launcher3" groups="pdk-fs" remote="github" revision="aosp-7.1.2" />
   <project path="packages/apps/interfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
+  <project path="packages/apps/Messaging" name="AOSP-JF-MM/platform_packages_apps_Messaging" groups="pdk-fs" remote="github" revision="aosp-7.1.2" />
   <project path="packages/apps/Nfc" name="AOSP-JF-MM/platform_packages_apps_Nfc" remote="github" revision="aosp-7.1.2" />
   <project path="packages/apps/OTAUpdates" name="AOSP-JF-MM/platform_packages_apps_OTAUpdates" remote="github" revision="aosp-7.1.2" />
   <project path="packages/apps/PackageInstaller" name="AOSP-JF-MM/platform_packages_apps_PackageInstaller" groups="pdk-fs" remote="github" revision="aosp-7.1.2" />
