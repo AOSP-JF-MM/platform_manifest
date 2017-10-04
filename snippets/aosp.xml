@@ -81,7 +81,6 @@
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/dlmalloc" name="platform/external/dlmalloc" />
   <project path="external/dng_sdk" name="platform/external/dng_sdk" />
-  <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" />
   <project path="external/doclava" name="platform/external/doclava" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/donuts" name="platform/external/donuts" groups="pdk-fs" />
   <project path="external/drm_gralloc" name="platform/external/drm_gralloc" groups="drm_gralloc" />
@@ -156,7 +155,6 @@
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libmicrohttpd" name="platform/external/libmicrohttpd" />
-  <project path="external/libmpeg2" name="platform/external/libmpeg2" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libnl" name="platform/external/libnl" groups="pdk" />
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" />
