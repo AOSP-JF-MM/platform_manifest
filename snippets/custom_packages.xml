@@ -20,7 +20,10 @@
   <project path="build/kati" name="AOSP-JF-MM/platform_build_kati" groups="pdk,tradefed" remote="github" revision="aosp-8.0-test" />
   <project path="device/jdc/sepolicy" name="AOSP-JF-MM/platform_device_jdc_sepolicy" remote="github" revision="aosp-8.0-test" />
   <project path="device/qcom/sepolicy" name="AOSP-JF-MM/platform_device_qcom_sepolicy" remote="github" revision="aosp-8.0-test" />
+  <project path="external/exfat" name="AOSP-JF-MM/platform_external_exfat" remote="github" revision="aosp-8.0-test" />
+  <project path="external/fuse" name="AOSP-JF-MM/platform_external_fuse" remote="github" revision="aosp-8.0-test" />
   <project path="external/connectivity" name="AOSP-JF-MM/platform_external_connectivity" remote="github" revision="aosp-8.0-test" />
+  <project path="external/ntfs-3g" name="AOSP-JF-MM/platform_external_ntfs-3g" remote="github" revision="aosp-8.0-test" />
   <project path="external/selinux" name="AOSP-JF-MM/platform_external_selinux" groups="pdk" remote="github" revision="aosp-8.0-test" />
   <project path="external/skia" name="AOSP-JF-MM/platform_external_skia" groups="pdk,qcom_msm8x26" remote="github" revision="aosp-8.0-test" />
   <project path="external/tinycompress" name="AOSP-JF-MM/platform_external_tinycompress" groups="pdk" remote="github" revision="aosp-8.0-test" />
