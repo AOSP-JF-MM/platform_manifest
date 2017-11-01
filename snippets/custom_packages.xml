@@ -39,6 +39,7 @@
   <project path="system/qcom" name="AOSP-JF-MM/platform_system_qcom" remote="github" revision="aosp-8.1-test" />
   <project path="system/sepolicy" name="AOSP-JF-MM/platform_system_sepolicy" groups="pdk" remote="github" revision="aosp-8.1-test" />
   <project path="system/vold" name="AOSP-JF-MM/platform_system_vold" groups="pdk" remote="github" revision="aosp-8.1-test" />
+  <project path="system/connectivity/wificond" name="AOSP-JF-MM/platform_system_connectivity_wificond" groups="pdk" remote="github" revision="aosp-8.1-test" />
   <project path="packages/apps/Camera2" name="AOSP-JF-MM/platform_packages_apps_Camera2" groups="pdk-fs" remote="github" revision="aosp-8.1-test" />
   <project path="packages/apps/CarrierConfig" name="AOSP-JF-MM/platform_packages_apps_CarrierConfig" groups="pdk-fs" remote="github" revision="aosp-8.1-test" />
   <project path="packages/apps/DeskClock" name="AOSP-JF-MM/platform_packages_apps_DeskClock" groups="pdk-fs" remote="github" revision="aosp-8.1-test" />
