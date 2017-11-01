@@ -31,31 +31,31 @@
   <project path="hardware/qcom/msm8x09" name="platform/hardware/qcom/msm8x09" groups="qcom_msm8x09" />
 
   <!-- Custom HALs -->
-  <project path="hardware/broadcom/libbt" name="AOSP-JF-MM/platform_hardware_broadcom_libbt" groups="pdk" remote="github" revision="aosp-8.0-test" />
-  <project path="hardware/interfaces" name="AOSP-JF-MM/platform_hardware_interfaces" groups="pdk" remote="github" revision="aosp-8.0-test" />
-  <project path="hardware/jdc-interfaces" name="AOSP-JF-MM/platform_hardware_jdc-interfaces" groups="pdk" remote="github" revision="aosp-8.0-test" />
-  <project path="hardware/libhardware" name="AOSP-JF-MM/platform_hardware_libhardware" groups="pdk" remote="github" revision="aosp-8.0-test" />
-  <project path="hardware/libhardware_legacy" name="AOSP-JF-MM/platform_hardware_libhardware_legacy" groups="pdk" remote="github" revision="aosp-8.0-test" />
-  <project path="hardware/qcom/audio" name="AOSP-JF-MM/platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="aosp-8.0-test" />
-  <project path="hardware/qcom/display" name="AOSP-JF-MM/platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="aosp-8.0-test" />
-  <project path="hardware/qcom/bt" name="AOSP-JF-MM/platform_hardware_qcom_bt" groups="qcom,pdk" remote="github" revision="aosp-8.0-test" />
-  <project path="hardware/qcom/gps" name="AOSP-JF-MM/platform_hardware_qcom_gps" groups="qcom,qcom_gps,pdk" remote="github" revision="aosp-8.0-test" />
-  <project path="hardware/qcom/media" name="AOSP-JF-MM/platform_hardware_qcom_media" groups="qcom" remote="github" revision="aosp-8.0-test" />
-  <project path="hardware/qcom/keymaster" name="AOSP-JF-MM/platform_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" remote="github" revision="aosp-8.0-test" />
-  <project path="hardware/qcom/wlan" name="AOSP-JF-MM/platform_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="github" revision="aosp-8.0-test" />
-  <project path="hardware/ril" name="AOSP-JF-MM/platform_hardware_ril" groups="pdk" remote="github" revision="aosp-8.0-test" />
-  <project path="hardware/samsung" name="AOSP-JF-MM/platform_hardware_samsung" remote="github" revision="aosp-8.0-test" />
+  <project path="hardware/broadcom/libbt" name="AOSP-JF-MM/platform_hardware_broadcom_libbt" groups="pdk" remote="github" revision="aosp-8.1-test" />
+  <project path="hardware/interfaces" name="AOSP-JF-MM/platform_hardware_interfaces" groups="pdk" remote="github" revision="aosp-8.1-test" />
+  <project path="hardware/jdc-interfaces" name="AOSP-JF-MM/platform_hardware_jdc-interfaces" groups="pdk" remote="github" revision="aosp-8.1-test" />
+  <project path="hardware/libhardware" name="AOSP-JF-MM/platform_hardware_libhardware" groups="pdk" remote="github" revision="aosp-8.1-test" />
+  <project path="hardware/libhardware_legacy" name="AOSP-JF-MM/platform_hardware_libhardware_legacy" groups="pdk" remote="github" revision="aosp-8.1-test" />
+  <project path="hardware/qcom/audio" name="AOSP-JF-MM/platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="aosp-8.1-test" />
+  <project path="hardware/qcom/display" name="AOSP-JF-MM/platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="aosp-8.1-test" />
+  <project path="hardware/qcom/bt" name="AOSP-JF-MM/platform_hardware_qcom_bt" groups="qcom,pdk" remote="github" revision="aosp-8.1-test" />
+  <project path="hardware/qcom/gps" name="AOSP-JF-MM/platform_hardware_qcom_gps" groups="qcom,qcom_gps,pdk" remote="github" revision="aosp-8.1-test" />
+  <project path="hardware/qcom/media" name="AOSP-JF-MM/platform_hardware_qcom_media" groups="qcom" remote="github" revision="aosp-8.1-test" />
+  <project path="hardware/qcom/keymaster" name="AOSP-JF-MM/platform_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" remote="github" revision="aosp-8.1-test" />
+  <project path="hardware/qcom/wlan" name="AOSP-JF-MM/platform_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="github" revision="aosp-8.1-test" />
+  <project path="hardware/ril" name="AOSP-JF-MM/platform_hardware_ril" groups="pdk" remote="github" revision="aosp-8.1-test" />
+  <project path="hardware/samsung" name="AOSP-JF-MM/platform_hardware_samsung" remote="github" revision="aosp-8.1-test" />
 
   <!-- QCOM HALs -->
-  <project path="hardware/qcom/audio-caf/msm8960" name="AOSP-JF-MM/platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="msm8960-8.0-test" />
-  <project path="hardware/qcom/audio-caf/msm8996" name="AOSP-JF-MM/platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="msm8996-8.0-test" />
-  <project path="hardware/qcom/bt-caf" name="AOSP-JF-MM/platform_hardware_qcom_bt" groups="qcom,pdk" remote="github" revision="aosp-8.0-test-caf" />
-  <project path="hardware/qcom/display-caf/msm8960" name="AOSP-JF-MM/platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="msm8960-8.0-test" />
-  <project path="hardware/qcom/display-caf/msm8996" name="AOSP-JF-MM/platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="msm8996-8.0-test" />
-  <project path="hardware/qcom/display-caf/msm8998" name="AOSP-JF-MM/platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="msm8998-8.0-test" />
-  <project path="hardware/qcom/media-caf/msm8960" name="AOSP-JF-MM/platform_hardware_qcom_media" groups="qcom" remote="github" revision="msm8960-8.0-test" />
-  <project path="hardware/qcom/media-caf/msm8996" name="AOSP-JF-MM/platform_hardware_qcom_media" groups="qcom" remote="github" revision="msm8996-8.0-test" />
-  <project path="hardware/qcom/wlan-caf" name="AOSP-JF-MM/platform_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="github" revision="aosp-8.0-test-caf" />
-  <project path="hardware/ril-caf" name="AOSP-JF-MM/platform_hardware_ril" groups="pdk" remote="github" revision="aosp-8.0-test-caf" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="AOSP-JF-MM/platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="msm8960-8.1-test" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="AOSP-JF-MM/platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="msm8996-8.1-test" />
+  <project path="hardware/qcom/bt-caf" name="AOSP-JF-MM/platform_hardware_qcom_bt" groups="qcom,pdk" remote="github" revision="aosp-8.1-test-caf" />
+  <project path="hardware/qcom/display-caf/msm8960" name="AOSP-JF-MM/platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="msm8960-8.1-test" />
+  <project path="hardware/qcom/display-caf/msm8996" name="AOSP-JF-MM/platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="msm8996-8.1-test" />
+  <project path="hardware/qcom/display-caf/msm8998" name="AOSP-JF-MM/platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="msm8998-8.1-test" />
+  <project path="hardware/qcom/media-caf/msm8960" name="AOSP-JF-MM/platform_hardware_qcom_media" groups="qcom" remote="github" revision="msm8960-8.1-test" />
+  <project path="hardware/qcom/media-caf/msm8996" name="AOSP-JF-MM/platform_hardware_qcom_media" groups="qcom" remote="github" revision="msm8996-8.1-test" />
+  <project path="hardware/qcom/wlan-caf" name="AOSP-JF-MM/platform_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="github" revision="aosp-8.1-test-caf" />
+  <project path="hardware/ril-caf" name="AOSP-JF-MM/platform_hardware_ril" groups="pdk" remote="github" revision="aosp-8.1-test-caf" />
 
 </manifest>

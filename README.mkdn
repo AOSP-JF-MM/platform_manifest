@@ -1,6 +1,6 @@
 <img src="https://raw.githubusercontent.com/AOSP-JF-MM/platform_manifest/aosp-7.1.2/JFDCNT.png">
 
-The Android Open Source Project - Oreo 8.0.0
+The Android Open Source Project - Oreo 8.1.0
 ===========
 
 WIP, DO NOT USE THIS MANIFEST

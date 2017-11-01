@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- AOSP-JDC -->
-  <project path="build/make" name="AOSP-JF-MM/platform_build" groups="pdk" remote="github" revision="aosp-8.0-test" >
+  <project path="build/make" name="AOSP-JF-MM/platform_build" groups="pdk" remote="github" revision="aosp-8.1-test" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -11,51 +11,51 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="AOSP-JF-MM/platform_build_soong" groups="pdk,tradefed" remote="github" revision="aosp-8.0-test" >
+  <project path="build/soong" name="AOSP-JF-MM/platform_build_soong" groups="pdk,tradefed" remote="github" revision="aosp-8.1-test" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="bionic" name="AOSP-JF-MM/platform_bionic" groups="pdk" remote="github" revision="aosp-8.0-test" />
-  <project path="bootable/recovery" name="AOSP-JF-MM/platform_bootable_recovery" groups="pdk" remote="github" revision="aosp-8.0-test" />
-  <project path="build/kati" name="AOSP-JF-MM/platform_build_kati" groups="pdk,tradefed" remote="github" revision="aosp-8.0-test" />
-  <project path="device/jdc/sepolicy" name="AOSP-JF-MM/platform_device_jdc_sepolicy" remote="github" revision="aosp-8.0-test" />
-  <project path="device/qcom/sepolicy" name="AOSP-JF-MM/platform_device_qcom_sepolicy" remote="github" revision="aosp-8.0-test" />
-  <project path="external/exfat" name="AOSP-JF-MM/platform_external_exfat" remote="github" revision="aosp-8.0-test" />
-  <project path="external/fuse" name="AOSP-JF-MM/platform_external_fuse" remote="github" revision="aosp-8.0-test" />
-  <project path="external/connectivity" name="AOSP-JF-MM/platform_external_connectivity" remote="github" revision="aosp-8.0-test" />
-  <project path="external/ntfs-3g" name="AOSP-JF-MM/platform_external_ntfs-3g" remote="github" revision="aosp-8.0-test" />
-  <project path="external/selinux" name="AOSP-JF-MM/platform_external_selinux" groups="pdk" remote="github" revision="aosp-8.0-test" />
-  <project path="external/skia" name="AOSP-JF-MM/platform_external_skia" groups="pdk,qcom_msm8x26" remote="github" revision="aosp-8.0-test" />
-  <project path="external/tinycompress" name="AOSP-JF-MM/platform_external_tinycompress" groups="pdk" remote="github" revision="aosp-8.0-test" />
-  <project path="frameworks/av" name="AOSP-JF-MM/platform_frameworks_av" groups="pdk" remote="github" revision="aosp-8.0-test" />
-  <project path="frameworks/base" name="AOSP-JF-MM/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-8.0-test" />
-  <project path="frameworks/native" name="AOSP-JF-MM/platform_frameworks_native" groups="pdk" remote="github" revision="aosp-8.0-test" />
-  <project path="frameworks/opt/telephony" name="AOSP-JF-MM/platform_frameworks_opt_telephony" groups="pdk" remote="github" revision="aosp-8.0-test" />
-  <project path="system/bt" name="AOSP-JF-MM/platform_system_bt" groups="pdk" remote="github" revision="aosp-8.0-test" />
-  <project path="system/core" name="AOSP-JF-MM/platform_system_core" groups="pdk" remote="github" revision="aosp-8.0-test" />
-  <project path="system/extras" name="AOSP-JF-MM/platform_system_extras" groups="pdk" remote="github" revision="aosp-8.0-test" />
-  <project path="system/media" name="AOSP-JF-MM/platform_system_media" groups="pdk" remote="github" revision="aosp-8.0-test" />
-  <project path="system/nfc" name="AOSP-JF-MM/platform_system_nfc" groups="pdk" remote="github" revision="aosp-8.0-test" />
-  <project path="system/qcom" name="AOSP-JF-MM/platform_system_qcom" remote="github" revision="aosp-8.0-test" />
-  <project path="system/sepolicy" name="AOSP-JF-MM/platform_system_sepolicy" groups="pdk" remote="github" revision="aosp-8.0-test" />
-  <project path="system/vold" name="AOSP-JF-MM/platform_system_vold" groups="pdk" remote="github" revision="aosp-8.0-test" />
-  <project path="packages/apps/Camera2" name="AOSP-JF-MM/platform_packages_apps_Camera2" groups="pdk-fs" remote="github" revision="aosp-8.0-test" />
-  <project path="packages/apps/CarrierConfig" name="AOSP-JF-MM/platform_packages_apps_CarrierConfig" groups="pdk-fs" remote="github" revision="aosp-8.0-test" />
-  <project path="packages/apps/DeskClock" name="AOSP-JF-MM/platform_packages_apps_DeskClock" groups="pdk-fs" remote="github" revision="aosp-8.0-test" />
-  <project path="packages/apps/Jelly" name="AOSP-JF-MM/platform_packages_apps_Jelly" groups="pdk-fs" remote="github" revision="aosp-8.0-test" />
-  <project path="packages/apps/Launcher3" name="AOSP-JF-MM/platform_packages_apps_Launcher3" groups="pdk-fs" remote="github" revision="aosp-8.0-test" />
-  <project path="packages/apps/Nfc" name="AOSP-JF-MM/platform_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="github" revision="aosp-8.0-test" />
-  <project path="packages/apps/OTAUpdates" name="AOSP-JF-MM/platform_packages_apps_OTAUpdates" remote="github" revision="aosp-8.0-test" />
-  <project path="packages/apps/Settings" name="AOSP-JF-MM/platform_packages_apps_Settings" groups="pdk-fs" remote="github" revision="aosp-8.0-test" />
-<!--   <project path="packages/apps/SnapdragonCamera" name="AOSP-JF-MM/packages_apps_SnapdragonCamera" remote="github" revision="aosp-8.0-test" /> -->
-  <project path="packages/inputmethods/LatinIME" name="AOSP-JF-MM/platform_packages_inputmethods_LatinIME" groups="pdk-fs" remote="github" revision="aosp-8.0-test" />
-  <project path="packages/providers/MediaProvider" name="AOSP-JF-MM/platform_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-8.0-test" />
-  <project path="packages/services/Telecomm" name="AOSP-JF-MM/platform_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-8.0-test" />
-  <project path="packages/services/Telephony" name="AOSP-JF-MM/platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-8.0-test" />
+  <project path="bionic" name="AOSP-JF-MM/platform_bionic" groups="pdk" remote="github" revision="aosp-8.1-test" />
+  <project path="bootable/recovery" name="AOSP-JF-MM/platform_bootable_recovery" groups="pdk" remote="github" revision="aosp-8.1-test" />
+  <project path="build/kati" name="AOSP-JF-MM/platform_build_kati" groups="pdk,tradefed" remote="github" revision="aosp-8.1-test" />
+  <project path="device/jdc/sepolicy" name="AOSP-JF-MM/platform_device_jdc_sepolicy" remote="github" revision="aosp-8.1-test" />
+  <project path="device/qcom/sepolicy" name="AOSP-JF-MM/platform_device_qcom_sepolicy" remote="github" revision="aosp-8.1-test" />
+  <project path="external/exfat" name="AOSP-JF-MM/platform_external_exfat" remote="github" revision="aosp-8.1-test" />
+  <project path="external/fuse" name="AOSP-JF-MM/platform_external_fuse" remote="github" revision="aosp-8.1-test" />
+  <project path="external/connectivity" name="AOSP-JF-MM/platform_external_connectivity" remote="github" revision="aosp-8.1-test" />
+  <project path="external/ntfs-3g" name="AOSP-JF-MM/platform_external_ntfs-3g" remote="github" revision="aosp-8.1-test" />
+  <project path="external/selinux" name="AOSP-JF-MM/platform_external_selinux" groups="pdk" remote="github" revision="aosp-8.1-test" />
+  <project path="external/skia" name="AOSP-JF-MM/platform_external_skia" groups="pdk,qcom_msm8x26" remote="github" revision="aosp-8.1-test" />
+  <project path="external/tinycompress" name="AOSP-JF-MM/platform_external_tinycompress" groups="pdk" remote="github" revision="aosp-8.1-test" />
+  <project path="frameworks/av" name="AOSP-JF-MM/platform_frameworks_av" groups="pdk" remote="github" revision="aosp-8.1-test" />
+  <project path="frameworks/base" name="AOSP-JF-MM/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-8.1-test" />
+  <project path="frameworks/native" name="AOSP-JF-MM/platform_frameworks_native" groups="pdk" remote="github" revision="aosp-8.1-test" />
+  <project path="frameworks/opt/telephony" name="AOSP-JF-MM/platform_frameworks_opt_telephony" groups="pdk" remote="github" revision="aosp-8.1-test" />
+  <project path="system/bt" name="AOSP-JF-MM/platform_system_bt" groups="pdk" remote="github" revision="aosp-8.1-test" />
+  <project path="system/core" name="AOSP-JF-MM/platform_system_core" groups="pdk" remote="github" revision="aosp-8.1-test" />
+  <project path="system/extras" name="AOSP-JF-MM/platform_system_extras" groups="pdk" remote="github" revision="aosp-8.1-test" />
+  <project path="system/media" name="AOSP-JF-MM/platform_system_media" groups="pdk" remote="github" revision="aosp-8.1-test" />
+  <project path="system/nfc" name="AOSP-JF-MM/platform_system_nfc" groups="pdk" remote="github" revision="aosp-8.1-test" />
+  <project path="system/qcom" name="AOSP-JF-MM/platform_system_qcom" remote="github" revision="aosp-8.1-test" />
+  <project path="system/sepolicy" name="AOSP-JF-MM/platform_system_sepolicy" groups="pdk" remote="github" revision="aosp-8.1-test" />
+  <project path="system/vold" name="AOSP-JF-MM/platform_system_vold" groups="pdk" remote="github" revision="aosp-8.1-test" />
+  <project path="packages/apps/Camera2" name="AOSP-JF-MM/platform_packages_apps_Camera2" groups="pdk-fs" remote="github" revision="aosp-8.1-test" />
+  <project path="packages/apps/CarrierConfig" name="AOSP-JF-MM/platform_packages_apps_CarrierConfig" groups="pdk-fs" remote="github" revision="aosp-8.1-test" />
+  <project path="packages/apps/DeskClock" name="AOSP-JF-MM/platform_packages_apps_DeskClock" groups="pdk-fs" remote="github" revision="aosp-8.1-test" />
+  <project path="packages/apps/Jelly" name="AOSP-JF-MM/platform_packages_apps_Jelly" groups="pdk-fs" remote="github" revision="aosp-8.1-test" />
+  <project path="packages/apps/Launcher3" name="AOSP-JF-MM/platform_packages_apps_Launcher3" groups="pdk-fs" remote="github" revision="aosp-8.1-test" />
+  <project path="packages/apps/Nfc" name="AOSP-JF-MM/platform_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="github" revision="aosp-8.1-test" />
+  <project path="packages/apps/OTAUpdates" name="AOSP-JF-MM/platform_packages_apps_OTAUpdates" remote="github" revision="aosp-8.1-test" />
+  <project path="packages/apps/Settings" name="AOSP-JF-MM/platform_packages_apps_Settings" groups="pdk-fs" remote="github" revision="aosp-8.1-test" />
+<!--   <project path="packages/apps/SnapdragonCamera" name="AOSP-JF-MM/packages_apps_SnapdragonCamera" remote="github" revision="aosp-8.1-test" /> -->
+  <project path="packages/inputmethods/LatinIME" name="AOSP-JF-MM/platform_packages_inputmethods_LatinIME" groups="pdk-fs" remote="github" revision="aosp-8.1-test" />
+  <project path="packages/providers/MediaProvider" name="AOSP-JF-MM/platform_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-8.1-test" />
+  <project path="packages/services/Telecomm" name="AOSP-JF-MM/platform_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-8.1-test" />
+  <project path="packages/services/Telephony" name="AOSP-JF-MM/platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-8.1-test" />
 
   <!-- Vendor repos -->
-  <project path="vendor/aosp" name="AOSP-JF-MM/platform_vendor_aosp" remote="github" revision="aosp-8.0-test" />
-  <project path="vendor/qcom-opensource/cryptfs_hw" name="AOSP-JF-MM/platform_vendor_qcom_opensource_cryptfs_hw" remote="github" revision="aosp-8.0-test" />
-  <project path="vendor/qcom-opensource/interfaces" name="AOSP-JF-MM/platform_vendor_qcom_opensource_interfaces" remote="github" revision="aosp-8.0-test" />
+  <project path="vendor/aosp" name="AOSP-JF-MM/platform_vendor_aosp" remote="github" revision="aosp-8.1-test" />
+  <project path="vendor/qcom-opensource/cryptfs_hw" name="AOSP-JF-MM/platform_vendor_qcom_opensource_cryptfs_hw" remote="github" revision="aosp-8.1-test" />
+  <project path="vendor/qcom-opensource/interfaces" name="AOSP-JF-MM/platform_vendor_qcom_opensource_interfaces" remote="github" revision="aosp-8.1-test" />
 
 </manifest>
