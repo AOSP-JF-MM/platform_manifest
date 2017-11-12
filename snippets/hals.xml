@@ -4,6 +4,7 @@
   <project path="hardware/akm" name="platform/hardware/akm" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" />
   <project path="hardware/google/apf" name="platform/hardware/google/apf" groups="pdk" />
+  <project path="hardware/google/easel" name="platform/hardware/google/easel" groups="paintbox" />
 <!--   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel,pdk" /> -->
 <!--   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel,pdk" /> -->
 <!--   <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel,pdk" /> -->
@@ -21,6 +22,7 @@
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense,pdk" />
 <!--   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt,pdk" /> -->
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk" />
+  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom_camera" />
   <project path="hardware/qcom/data/ipacfg-mgr" name="platform/hardware/qcom/data/ipacfg-mgr" groups="qcom,pdk" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960,pdk" />
   <project path="hardware/qcom/msm8994" name="platform/hardware/qcom/msm8994" groups="qcom_msm8994,pdk" />
