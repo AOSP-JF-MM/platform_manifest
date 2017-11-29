@@ -47,6 +47,7 @@
   <project path="packages/apps/DeskClock" name="AOSP-JF-MM/platform_packages_apps_DeskClock" groups="pdk-fs" remote="github" revision="aosp-8.1" />
   <project path="packages/apps/Jelly" name="AOSP-JF-MM/platform_packages_apps_Jelly" groups="pdk-fs" remote="github" revision="aosp-8.1" />
   <project path="packages/apps/Launcher3" name="AOSP-JF-MM/platform_packages_apps_Launcher3" groups="pdk-fs" remote="github" revision="aosp-8.1" />
+  <project path="packages/apps/MusicFX" name="AOSP-JF-MM/platform_packages_apps_MusicFX" groups="pdk-fs" remote="github" revision="aosp-8.1" />
   <project path="packages/apps/Nfc" name="AOSP-JF-MM/platform_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="github" revision="aosp-8.1" />
   <project path="packages/apps/OTAUpdates" name="AOSP-JF-MM/platform_packages_apps_OTAUpdates" remote="github" revision="aosp-8.1" />
   <project path="packages/apps/PackageInstaller" name="AOSP-JF-MM/platform_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-8.1" />
